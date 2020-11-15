@@ -12,14 +12,26 @@ TBD... Video explaining how to navigate
 
 EVA is a carriage platform for MGN rail based printers. The main goal is to support what people may have laying around or have easy access to. EVA is trying to implement that goal.
 
-The specification is described in a separate
-[:octicons-mark-github-16: EVA 2 / Spec]({{urls.spec}}) document.
+The specification is described in a separate {{ eva_link("spec") }} document.
+
+### Parts explained
+
+The _Bowden_ variant is the parent of all other drive variants in EVA 2.
+
+The main parts (==sub assemblies==) of EVA 2 are:
+
+- **front** - which changes based on the choosen hotend, e.g. E3D V6 vs a Mosquito.
+- **top** - specified by the preferred drive - in this case there is no drive as for a bowden assembly a 3rd party drive is on the frame.
+- **back** - different for motion systems - CoreXY is the default.
+- **bottom** - mainly serves the purpose of being a proxy to a fan duct.
+
+Then there are auxilary parts: **fan duct**, **belt grabbers**, **belt tensioners**, **probe holders**, **cable guides** and **shrouds**.
 
 ## Download
 
 The whole package can be downloaded as a ZIP package, otherwise you can navigate to the [:octicons-mark-github-16: `stls` directory]({{config.repo_url}}/stls).
 
-[Download :octicons-download-24:]({{download_zip}}){: .md-button .md-button--primary }
+[Download :octicons-download-24:]({{download_url}}){: .md-button .md-button--primary }
 
 ## Support
 
@@ -34,20 +46,11 @@ The project also received or receives continous support from the companies we al
 
 Please go and buy something from them :smile:
 
-## Examples
-
-For Rat Rig V-core Pro the [Easy Mod](https://github.com/pkucmus/Easy-Mod) is required to change the X and Y rail orientation.
-
-EVA is now officially used by Rat Rig in their products :tada: :
-
-* [V-core Pro (with Easy Mod)](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html)
-* [V-cast](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-cast.html)
-
-## Contribution
+### Contribution
 
 Issues, problems, feature requests, requests for compatibility with different printers can be requested in the project's [issue tracker](https://github.com/EVA-3D/eva-main/issues).
 
-## Attributions
+### Attributions
 
 One does not need a keen eye to see that this design is based on many different designs that are out in the wild - although all the parts here are made from scratch - their authors deserve credit (their work provided inspiration):
 
@@ -62,6 +65,15 @@ The following people deserve special credit for their amazing work - making some
 * [João Barros](http://www.joaobarros.pt)
 
 THANK YOU!
+
+## Examples
+
+For Rat Rig V-core Pro the [Easy Mod](https://github.com/pkucmus/Easy-Mod) is required to change the X and Y rail orientation.
+
+EVA is now officially used by Rat Rig in their products :tada: :
+
+* [V-core Pro (with Easy Mod)](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html)
+* [V-cast](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-cast.html)
 
 ## Contact
 

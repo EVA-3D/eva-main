@@ -14,6 +14,9 @@ mkdocs-macros-plugin = "^0.4.20"
 mkdocs-awesome-pages-plugin = "^2.4.0"
 
 [tool.poetry.dev-dependencies]
+ipython = "^7.19.0"
+readline = "^6.2.4"
+eva-3d = {path = "../eva-docs-builder", develop = true}
 
 [build-system]
 requires = ["poetry>=0.12"]

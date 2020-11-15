@@ -6,4 +6,4 @@ EVA 2 supports not only CoreXY but Cartesian and IDEX as well, check the link be
 
 Image
 
-TBD... will land in {{urls.cartesian_idex}}
+TBD... will land in {{ eva_link("cartesian_idex") }}

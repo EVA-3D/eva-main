@@ -7,19 +7,18 @@ copyright: Copyright &copy; 2020 Paweł Kucmus
 
 repo_name: EVA-3D / eva-main
 repo_url: https://github.com/EVA-3D/eva-main
+version: 2.0.0
   
-extra:
-  urls:
-    org: https://github.com/EVA-3D
-    spec: https://eva-3d.github.io/eva-spec
-    main: https://eva-3d.github.io/eva-main
-    bmg: https://eva-3d.github.io/eva-bmg
-    titan: https://eva-3d.github.io/eva-titan
-    hemera: https://eva-3d.github.io/eva-hemera
-    aero: https://eva-3d.github.io/eva-aero
-    cartesian_idex: https://eva-3d.github.io/eva-cartesian-idex
-    mgn15: https://eva-3d.github.io/eva-mgn15
-  download_zip: https://github.com/EVA-3D/eva-main/archive/main.zip
+eva_links:
+  org: https://github.com/EVA-3D
+  spec: https://eva-3d.github.io/eva-spec
+  main: https://eva-3d.github.io/eva-main
+  bmg: https://eva-3d.github.io/eva-bmg
+  titan: https://eva-3d.github.io/eva-titan
+  hemera: https://eva-3d.github.io/eva-hemera
+  aero: https://eva-3d.github.io/eva-aero
+  cartesian_idex: https://eva-3d.github.io/eva-cartesian-idex
+  mgn15: https://eva-3d.github.io/eva-mgn15
 
 theme:
   logo: assets/logo_white_outline.svg
@@ -36,7 +35,8 @@ plugins:
   - minify:
       minify_html: true
   - awesome-pages
-  - macros
+  - macros:
+      modules: [eva_3d.bom]
 
 extra_css:
   - css/extra.css
