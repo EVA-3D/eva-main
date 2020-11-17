@@ -13,6 +13,7 @@ eva_links:
   org: https://github.com/EVA-3D
   spec: https://eva-3d.github.io/eva-spec
   main: https://eva-3d.github.io/eva-main
+  bowden: https://eva-3d.github.io/eva-bowden
   bmg: https://eva-3d.github.io/eva-bmg
   titan: https://eva-3d.github.io/eva-titan
   hemera: https://eva-3d.github.io/eva-hemera
@@ -20,21 +21,27 @@ eva_links:
   cartesian_idex: https://eva-3d.github.io/eva-cartesian-idex
   mgn15: https://eva-3d.github.io/eva-mgn15
 
+onshape:
+  bowden: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/97f38bca98acd8d24f463d78
+
 theme:
   logo: assets/logo_white_outline.svg
   favicon: assets/logo_white_outline.svg
-  name: material
   language: en
+  name: material
   palette:
     scheme: slate
     primary: green
     accent: lime
+  features:
+    - navigation.instant
 
 plugins:
   - search
   - minify:
       minify_html: true
   - awesome-pages
+  - eva-3d-plugin
   - macros:
       modules: [eva_3d.bom]
 
