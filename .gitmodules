@@ -4,3 +4,6 @@
 [submodule "docs/drives/bowden"]
 	path = docs/drives/bowden
 	url = git@github.com:EVA-3D/eva-bowden.git
+[submodule "docs/drives/bmg"]
+	path = docs/drives/bmg
+	url = git@github.com:EVA-3D/eva-bmg.git
