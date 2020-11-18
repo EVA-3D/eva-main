@@ -2,5 +2,16 @@
 
 set -e
 
-eva-3d unpack-stls docs/drives/bowden/bom/e3d.csv downloads/Bowden.zip docs/drives/bowden/stls
-eva-3d unpack-stls docs/drives/bowden/bom/mosquito.csv downloads/Bowden.zip docs/drives/bowden/stls
+cd docs/drives
+
+cd bowden
+eva-3d unpack-stls bom/e3d.csv downloads/bowden.zip stls
+eva-3d unpack-stls bom/mosquito.csv downloads/bowden.zip stls
+
+cd ../bmg
+eva-3d unpack-stls bom/e3d.csv downloads/BMG.zip stls
+eva-3d unpack-stls bom/mosquito.csv downloads/BMG.zip stls
+
+cd ../titan
+eva-3d unpack-stls bom/e3d.csv downloads/titan.zip stls
+eva-3d unpack-stls bom/mosquito.csv downloads/titan.zip stls

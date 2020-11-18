@@ -7,3 +7,9 @@
 [submodule "docs/drives/bmg"]
 	path = docs/drives/bmg
 	url = git@github.com:EVA-3D/eva-bmg.git
+[submodule "docs/drives/titan"]
+	path = docs/drives/titan
+	url = git@github.com:EVA-3D/eva-titan.git
+[submodule "docs/features/x_endstop"]
+	path = docs/features/x_endstop
+	url = git@github.com:EVA-3D/addon-endstops.git

@@ -23,6 +23,8 @@ eva_links:
 
 onshape:
   bowden: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/97f38bca98acd8d24f463d78
+  bmg: https://cad.onshape.com/documents/8669b75b86d079defa27c647/w/c7d4d8da0ad3b529c7c85328/e/d9184d31fd3592039cc4b5f8
+  titan: https://cad.onshape.com/documents/bb6db4fbcd7c5ec5350427f0/w/8da16df4512074fe4659384c/e/d0fc464a4453631a662f183c
 
 theme:
   logo: assets/logo_white_outline.svg
