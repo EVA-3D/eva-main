@@ -15,3 +15,8 @@ eva-3d unpack-stls bom/mosquito.csv downloads/BMG.zip stls
 cd ../titan
 eva-3d unpack-stls bom/e3d.csv downloads/titan.zip stls
 eva-3d unpack-stls bom/mosquito.csv downloads/titan.zip stls
+
+cd ../../addons/mgn15
+eva-3d unpack-stls bom/titan.csv downloads/mgn15.zip stls
+eva-3d unpack-stls bom/generic.csv downloads/mgn15.zip stls
+eva-3d unpack-stls bom/bmg.csv downloads/mgn15.zip stls

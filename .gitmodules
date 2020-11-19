@@ -13,3 +13,6 @@
 [submodule "docs/addons/x_endstop"]
 	path = docs/addons/x_endstop
 	url = git@github.com:EVA-3D/addon-endstops.git
+[submodule "docs/addons/mgn15"]
+	path = docs/addons/mgn15
+	url = git@github.com:EVA-3D/addon-mgn15.git
