@@ -8,7 +8,7 @@ The moment you've been waiting for is here - I'm releasing the source. Please re
 
 ## Using Onshape
 
-Each release takes way too much work and if I was to export all STEP files I would go crazy - to get step files go to source: TDB.
+Each release takes way too much work and if I was to export all STEP files I would go crazy - to get step files go to source, every Drives and Addons page that has a public Onshape link has a
 
 There you will find every part that was ever created. Use the bottom bar to navigate:
 

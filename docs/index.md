@@ -5,12 +5,6 @@ title: Introduction
 
 TBD... Video explaining how to navigate
 
-!!! question "Not what you are looking for?"
-
-    EVA is split into multiple repositories to make it more managable - think about it like remixes on Thingiverse.
-
-    You can find everything that's related to EVA here: [:octicons-mark-github-16: EVA-3D](https://github.com/EVA-3D)
-
 ## Platform
 
 EVA is a carriage platform for MGN rail based printers. The main goal is to support what people may have laying around or have easy access to. EVA is trying to implement that goal.
@@ -32,24 +26,24 @@ Then there are auxilary parts: **fan duct**, **belt grabbers**, **belt tensioner
 
 ## Download
 
-The whole package can be downloaded as a ZIP package, otherwise you can navigate to the [:octicons-mark-github-16: `stls` directory]({{config.repo_url}}/stls).
+The whole package can be downloaded as a ZIP package, otherwise you can navigate to the the specific drive or addon page and download files from there.
 
 [Download :octicons-download-24:]({{download_url}}){: .md-button .md-button--primary }
 
 ## Support
 
+![Rat Rig](assets/ratrig.png){: align=right }
+![Bondtech](assets/bondtech.png){: align=right }
+
 Big thanks to the users - one example is that only thanks to your donations the Mosquito parts were possible.
 
 If you want to support the project or just buy me coffee you can [:fontawesome-brands-paypal: Paypal.me](https://www.paypal.me/pkucmus).
 
-The project also received or receives continous support from the companies we all know. Big thank you to:
-
-![Rat Rig](assets/ratrig.png)
-![Bondtech](assets/bondtech.png)
+The project also received or receives continous support from the companies we all know. Big thank you!
 
 Please go and buy something from them :smile:
 
-### Contribution
+### Issues
 
 Issues, problems, feature requests, requests for compatibility with different printers can be requested in the project's [issue tracker](https://github.com/EVA-3D/eva-main/issues).
 

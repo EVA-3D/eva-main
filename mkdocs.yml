@@ -11,15 +11,16 @@ version: 2.0.0
   
 eva_links:
   org: https://github.com/EVA-3D
-  spec: https://eva-3d.github.io/eva-spec
-  main: https://eva-3d.github.io/eva-main
-  bowden: https://eva-3d.github.io/eva-bowden
-  bmg: https://eva-3d.github.io/eva-bmg
-  titan: https://eva-3d.github.io/eva-titan
-  hemera: https://eva-3d.github.io/eva-hemera
-  aero: https://eva-3d.github.io/eva-aero
-  cartesian_idex: https://eva-3d.github.io/eva-cartesian-idex
-  mgn15: https://eva-3d.github.io/eva-mgn15
+  spec: https://github.com/EVA-3D/eva-spec
+  main: https://github.com/EVA-3D/eva-main
+  bowden: https://github.com/EVA-3D/eva-bowden
+  bmg: https://github.com/EVA-3D/eva-bmg
+  titan: https://github.com/EVA-3D/eva-titan
+  hemera: https://github.com/EVA-3D/eva-hemera
+  aero: https://github.com/EVA-3D/eva-aero
+  cartesian_idex: https://github.com/EVA-3D/addon-cartesian-idex
+  mgn15: https://github.com/EVA-3D/addon-mgn15
+  endstops: https://github.com/EVA-3D/addon-endstops
 
 onshape:
   bowden: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/97f38bca98acd8d24f463d78
