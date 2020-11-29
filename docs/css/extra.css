@@ -26,6 +26,14 @@
     border-radius: 8px !important;
 }
 
+.md-content__inner {
+    margin: 0 .8rem 0;
+}
+
+.md-content__inner> :last-child {
+    margin-bottom: -0.8rem;
+}
+
 /* .md-header-nav__ellipsis {
     width: 100px !important;
     background: rgb(76,174,79);

@@ -26,13 +26,16 @@ onshape:
   bowden: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/97f38bca98acd8d24f463d78
   bmg: https://cad.onshape.com/documents/8669b75b86d079defa27c647/w/c7d4d8da0ad3b529c7c85328/e/d9184d31fd3592039cc4b5f8
   titan: https://cad.onshape.com/documents/bb6db4fbcd7c5ec5350427f0/w/8da16df4512074fe4659384c/e/d0fc464a4453631a662f183c
+  aero: https://cad.onshape.com/documents/f3f73361f3085b5d2da46709/w/5849cc3ab4949426cacc9c89/e/12710eca96e60afa44cee204
   mgn15: https://cad.onshape.com/documents/551442bc5664b4216eddf506/w/16749997681c8bec66757f15/e/ea4ec7fbee5ff4345d4fa96a?configuration=default
+  endstops: https://cad.onshape.com/documents/d24027dd78e7164add26b5f5/w/0615251dcae8664926ca1aa2/e/e01d9ebd9e9d0542d74812ce
 
 theme:
   logo: assets/logo_white_outline.svg
   favicon: assets/logo_white_outline.svg
   language: en
   name: material
+  custom_dir: overrides
   palette:
     scheme: slate
     primary: green

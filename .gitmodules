@@ -16,3 +16,6 @@
 [submodule "docs/addons/mgn15"]
 	path = docs/addons/mgn15
 	url = git@github.com:EVA-3D/addon-mgn15.git
+[submodule "docs/drives/aero"]
+	path = docs/drives/aero
+	url = git@github.com:EVA-3D/eva-aero.git
