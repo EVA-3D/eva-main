@@ -19,3 +19,18 @@
 [submodule "docs/drives/aero"]
 	path = docs/drives/aero
 	url = git@github.com:EVA-3D/eva-aero.git
+[submodule "docs/addons/fan-ducts"]
+	path = docs/addons/fan-ducts
+	url = git@github.com:EVA-3D/addon-fan-ducts.git
+[submodule "docs/addons/cartesian_idex"]
+	path = docs/addons/cartesian_idex
+	url = git@github.com:EVA-3D/addon-cartesian-idex.git
+[submodule "libs/mkdocs-material-insiders"]
+	path = libs/mkdocs-material-insiders
+	url = https://github.com/squidfunk/mkdocs-material-insiders.git
+[submodule "docs/drives/hemera"]
+	path = docs/drives/hemera
+	url = git@github.com:EVA-3D/eva-hemera.git
+[submodule "docs/addons/probes"]
+	path = docs/addons/probes
+	url = git@github.com:EVA-3D/addon-probes.git

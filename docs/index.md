@@ -3,7 +3,7 @@ title: Introduction
 ---
 # EVA 2
 
-TBD... Video explaining how to navigate
+![](assets/ALL.png)
 
 ## Platform
 
@@ -32,14 +32,20 @@ The whole package can be downloaded as a ZIP package, otherwise you can navigate
 
 ## Support
 
-![Rat Rig](assets/ratrig.png){: align=right }
-![Bondtech](assets/bondtech.png){: align=right }
-
 Big thanks to the users - one example is that only thanks to your donations the Mosquito parts were possible.
 
 If you want to support the project or just buy me coffee you can [:fontawesome-brands-paypal: Paypal.me](https://www.paypal.me/pkucmus).
 
 The project also received or receives continous support from the companies we all know. Big thank you!
+
+<p class="sponsors">
+    <a href="https://www.ratrig.com/" >
+        <img src="assets/ratrig.png" height="200"/>
+    </a>
+    <a href="https://www.bondtech.se/">
+        <img src="assets/bondtech.png" height="200"/>
+    </a>
+</p>
 
 Please go and buy something from them :smile:
 
@@ -74,4 +80,5 @@ EVA is now officially used by Rat Rig in their products :tada: :
 
 ## Contact
 
-If you need a more direct contact I'm on the [Rat Rig Unofficial Discord Server](https://discord.gg/DcCEk8u).
+If you need a more direct contact I'm on the [Rat Rig Unofficial Discord Server](https://discord.gg/DcCEk8u) along with many awesome people that will surely help :smile:
+

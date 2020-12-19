@@ -4,7 +4,13 @@ title: Printing
 
 EVA 2 is designed to for 0.8 - 0.9 wall width (there are place where that should not be exceeded). Infill should not be less than 20% rectilinear. Most of the parts can be printed with 0.3 layer height but 0.2 is the safe bet.
 
+## Printing orientation
+
 The parts are not oriented in the print orientation. I am currently unavailable to maintian that but the rule is: find a big flat face and set it on the bed.
+
+### Supports
+
+Unless specified the parts require **no supports**. If your print orientation required supports then you oriented the part wrong :)
 
 ## Pokey Pokey hole technique
 
@@ -18,3 +24,5 @@ You can see the blue spots (bridges) around the belt teeth are covering the hole
 
 
 ![](../assets/holes.png)
+
+

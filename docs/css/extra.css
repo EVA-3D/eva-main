@@ -7,6 +7,10 @@
     --md-primary-bg-color--light: #ffffffb3;
 } */
 
+h2 {
+    clear: left;
+}
+
 .md-header {
     background: rgb(76,174,79);
     background: linear-gradient(
@@ -31,7 +35,10 @@
 }
 
 .md-content__inner> :last-child {
-    margin-bottom: -0.8rem;
+    margin-bottom: 1rem;
+}
+.md-content__inner> :last-child img:not(.twemoji) {
+    margin-bottom: -1.4rem;
 }
 
 /* .md-header-nav__ellipsis {
@@ -39,3 +46,7 @@
     background: rgb(76,174,79);
     background: linear-gradient(65deg, rgba(76,174,79,1) 0%, rgba(76,174,79,1) 60%, rgba(101,105,101,1) 60.1%, rgba(101,105,101,1) 100%);
 } */
+
+.sponsors img {
+    height: 80px;
+}
