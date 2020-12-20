@@ -18,8 +18,9 @@ path=$(pwd)
 
 for i in "${submodules[@]}"; do
     cd $i
+    echo $i
     git add .
-    git commit -m "bump version"
+    git commit -m "bump version" || true
     git push origin main
     cd $path
 done

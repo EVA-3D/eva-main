@@ -18,11 +18,11 @@ When looking at the files or when slicing you will find that the holes are not t
 
 There are 0.2 - 0.3 layers covering the holes to "trick" the slicer into thinking there is a bridge to be made. After printing you need to either drill, poke with a screw driver, allen key or even force the screw throuh that layer - all of the above works (drill being the fastest obviously).
 
-![](../assets/slice.png)
+![](assets/slice.png)
 
 You can see the blue spots (bridges) around the belt teeth are covering the holes fully.
 
 
-![](../assets/holes.png)
+![](assets/holes.png)
 
 

@@ -29,3 +29,7 @@ eva-3d unpack-stls bom/bmg.csv downloads/mgn15.zip stls
 eva-3d unpack-stls bom/aero.csv downloads/mgn15.zip stls
 eva-3d unpack-stls bom/hemera.csv downloads/mgn15.zip stls
 
+cd ../../addons/cartesian_idex
+eva-3d unpack-stls bom/cartesian.csv downloads/cartesian_idex.zip stls --remove_stl_dir
+eva-3d unpack-stls bom/idex_x1.csv downloads/cartesian_idex.zip stls
+eva-3d unpack-stls bom/idex_x2.csv downloads/cartesian_idex.zip stls
