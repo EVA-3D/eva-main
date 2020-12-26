@@ -12,6 +12,14 @@ The parts are not oriented in the print orientation. I am currently unavailable 
 
 Unless specified the parts require **no supports**. If your print orientation required supports then you oriented the part wrong :)
 
+## Handling ex nuts
+
+To properly insert a hex nut into a printed part you need to take a short screw, thread it through the hole, put the nut in, drive the nut untill it's properly sitting in it's place and finally remove the short screw. **This is very important** and will allow for the nut not to bind in the screw threads when you are mid-way through your assembly - when a nut binds the two parts are usually garbage and need to be reprinted.
+
+![](assets/back_pull.png)
+
+
+
 ## Pokey Pokey hole technique
 
 When looking at the files or when slicing you will find that the holes are not there *that is by design* and while I know there are many techiques for achieving proper mid-air holes I am not able to consume the amount of work required to implement that for every single hole or sometimes there's not enough room for that.

@@ -20,7 +20,7 @@ for i in "${submodules[@]}"; do
     cd $i
     echo $i
     git add .
-    git commit -m "bump version" || true
+    git commit -m "bump to 2.1.0" || true
     git push origin main
     cd $path
 done

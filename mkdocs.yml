@@ -1,13 +1,14 @@
-site_name: "EVA 2"
+site_name: "EVA"
 site_url: "https://eva-3d.github.io/eva-main/"
 site_author: "Paweł Kucmus"
+site_description: "EVA 2 - 3D printer carriage platform"
 edit_uri: ""
 
 copyright: Copyright &copy; 2020 Paweł Kucmus
 
 repo_name: EVA-3D / eva-main
 repo_url: https://github.com/EVA-3D/eva-main
-version: 2.0.0
+version: 2.1.0
   
 eva_links:
   org: https://github.com/EVA-3D
@@ -43,18 +44,9 @@ theme:
   name: material
   custom_dir: overrides
   palette:
-    - scheme: slate
-      primary: green
-      accent: lime
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: default
-      primary: green
-      accent: lime
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+    scheme: slate
+    primary: green
+    accent: lime
   features:
     - navigation.instant
     # - navigation.sections
@@ -70,6 +62,9 @@ plugins:
   - eva-3d-plugin
   - macros:
       modules: [eva_3d.bom]
+  - exclude:
+      glob:
+        - "*.zip"
 
 extra_css:
   - css/extra.css

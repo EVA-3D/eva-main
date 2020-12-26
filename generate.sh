@@ -7,14 +7,17 @@ cd docs/drives
 cd bowden
 eva-3d unpack-stls bom/v6.csv downloads/bowden.zip stls --remove_stl_dir
 eva-3d unpack-stls bom/mosquito.csv downloads/bowden.zip stls
+eva-3d unpack-stls bom/dragon.csv downloads/bowden.zip stls
 
 cd ../bmg
 eva-3d unpack-stls bom/v6.csv downloads/bmg.zip stls --remove_stl_dir
 eva-3d unpack-stls bom/mosquito.csv downloads/bmg.zip stls
+eva-3d unpack-stls bom/dragon.csv downloads/bmg.zip stls
 
 cd ../titan
 eva-3d unpack-stls bom/v6.csv downloads/titan.zip stls --remove_stl_dir
 eva-3d unpack-stls bom/mosquito.csv downloads/titan.zip stls
+eva-3d unpack-stls bom/dragon.csv downloads/titan.zip stls
 
 cd ../aero
 eva-3d unpack-stls bom/aero.csv downloads/aero.zip stls --remove_stl_dir

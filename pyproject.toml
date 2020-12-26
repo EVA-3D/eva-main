@@ -12,6 +12,7 @@ mkdocs-redirects = "^1.0.1"
 mkdocs-macros-plugin = "^0.4.20"
 mkdocs-awesome-pages-plugin = "^2.4.0"
 mkdocs-material = {path = "libs/mkdocs-material-insiders"}
+mkdocs-exclude = "^1.0.2"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"

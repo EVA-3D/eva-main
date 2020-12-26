@@ -291,6 +291,17 @@ mkdocs = ">=1"
 
 [[package]]
 category = "main"
+description = "A mkdocs plugin that lets you exclude files or trees."
+name = "mkdocs-exclude"
+optional = false
+python-versions = "*"
+version = "1.0.2"
+
+[package.dependencies]
+mkdocs = "*"
+
+[[package]]
+category = "main"
 description = "Unleash the power of MkDocs with macros and variables"
 name = "mkdocs-macros-plugin"
 optional = false
@@ -600,7 +611,7 @@ python-versions = "*"
 version = "0.2.5"
 
 [metadata]
-content-hash = "431b3d74fe5e4af686cfa9585e0338712da8655c68b21f3d7b8e3dddda961424"
+content-hash = "4f0ab0d87faaab6c6df806d5d281bad4a2407ff27e9f6102497476054d0e038f"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -718,6 +729,9 @@ mkdocs = [
 mkdocs-awesome-pages-plugin = [
     {file = "mkdocs-awesome-pages-plugin-2.4.0.tar.gz", hash = "sha256:4abd42a7096e15a598cafb399142dc48ab28a8b096d059b5e7028b693a251131"},
     {file = "mkdocs_awesome_pages_plugin-2.4.0-py3-none-any.whl", hash = "sha256:7889552087781971db556b8f93cc3eea19c4d53a20860872446ec86d04a99a02"},
+]
+mkdocs-exclude = [
+    {file = "mkdocs-exclude-1.0.2.tar.gz", hash = "sha256:ba6fab3c80ddbe3fd31d3e579861fd3124513708271180a5f81846da8c7e2a51"},
 ]
 mkdocs-macros-plugin = [
     {file = "mkdocs-macros-plugin-0.4.20.tar.gz", hash = "sha256:82b90e376c30c567b242ec6dffc0db2ba1d0d51d468dfa5c41d3fa6344a56c50"},
