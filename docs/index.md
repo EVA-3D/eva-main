@@ -3,7 +3,7 @@ title: Introduction
 ---
 # EVA <sub><sup>2.1.0</sup></sub>
 
-![](assets/ALL.png)
+![](assets/banner.png)
 
 ## Platform
 
