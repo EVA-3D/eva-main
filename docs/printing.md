@@ -2,11 +2,25 @@
 title: Printing
 ---
 
-EVA 2 is designed to for 0.8 - 0.9 wall width (there are place where that should not be exceeded). Infill should not be less than 20% rectilinear. Most of the parts can be printed with 0.3 layer height but 0.2 is the safe bet.
+EVA 2 is designed to for 0.8 - 0.9 wall width (there are places where that should not be exceeded). Infill should not be less than 20% rectilinear. Most of the parts can be printed with 0.3 layer height but 0.2 is the safe bet.
 
 ## Printing orientation
 
-The parts are not oriented in the print orientation. I am currently unavailable to maintian that but the rule is: find a big flat face and set it on the bed.
+The parts are not oriented in the print orientation. I am currently unavailable to maintain that but the rule is: find a big flat face and set it on the bed.
+
+<div 
+    class="cloudimage-360"
+    data-folder="../assets/print_orientation/"
+    data-filename="{index}.png"
+    data-amount="36"
+    data-speed="500"
+    data-control-reverse="true"
+    data-full-screen="true"
+    data-magnifier="true"
+    data-bottom-circle="true"
+    data-hide-360-logo="true"
+    data-index-zero-base="4"
+></div>
 
 ### Supports
 

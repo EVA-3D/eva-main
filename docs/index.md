@@ -4,7 +4,7 @@ title: Introduction
 # EVA <sub><sup>2.1.0</sup></sub>
 
 <iframe id="player" type="text/html" width="800" height="480"
-  src="http://www.youtube.com/embed/fOFlQ7dKGFQ?enablejsapi=1&origin=https://eva-3d.github.io/eva-main/"
+  src="https://www.youtube.com/embed/fOFlQ7dKGFQ?enablejsapi=1&origin=https://eva-3d.github.io/eva-main/"
   frameborder="0"></iframe>
 
 ## Platform
@@ -38,7 +38,7 @@ Big thanks to the users - one example is that only thanks to your donations the 
 
 If you want to support the project or just buy me coffee you can [:fontawesome-brands-paypal: Paypal.me](https://www.paypal.me/pkucmus).
 
-The project also received or receives continous support from the companies we all know. Big thank you!
+The project also received or receives continuous support from the companies we all know. Big thank you!
 
 <p class="sponsors">
     <a href="https://www.ratrig.com/" >
