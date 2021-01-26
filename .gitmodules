@@ -34,3 +34,6 @@
 [submodule "docs/addons/probes"]
 	path = docs/addons/probes
 	url = git@github.com:EVA-3D/addon-probes.git
+[submodule "docs/drives/orbiter"]
+	path = docs/drives/orbiter
+	url = git@github.com:EVA-3D/eva-orbiter.git

@@ -1,5 +1,6 @@
 nav:
     - index.md
+    - features.md
     - printing.md
     - drives
     - addons

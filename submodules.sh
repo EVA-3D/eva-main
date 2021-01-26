@@ -2,6 +2,11 @@
 
 set -e
 
+if [ "$#" -ne 1 ]; then
+    echo "Provide a commit message"
+    exit 1
+fi
+
 submodules=(
     docs/addons/cartesian_idex 
     docs/addons/fan-ducts 
@@ -13,6 +18,7 @@ submodules=(
     docs/drives/bowden 
     docs/drives/hemera 
     docs/drives/titan
+    docs/drives/orbiter
 )
 path=$(pwd)
 
@@ -20,7 +26,7 @@ for i in "${submodules[@]}"; do
     cd $i
     echo $i
     git add .
-    git commit -m "bump to 2.1.0" || true
+    git commit -m "$1" || true
     git push origin main
     cd $path
 done

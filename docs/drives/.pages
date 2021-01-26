@@ -1,6 +1,7 @@
 collapse_single_pages: true
 nav:
     - bmg
+    - orbiter
     - titan
     - aero
     - hemera
