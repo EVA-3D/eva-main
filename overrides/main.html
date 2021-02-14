@@ -19,5 +19,21 @@
 
 {% block scripts %}
 <script>window.CI360 = { notInitOnLoad: true }</script>
+
 {{ super() }}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-56120L4BRQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied'
+  });
+  gtag('set', 'ads_data_redaction', true);
+  gtag('js', new Date());
+
+  gtag('config', 'G-56120L4BRQ');
+</script>
 {% endblock scripts %}
