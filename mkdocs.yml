@@ -50,7 +50,7 @@ theme:
     primary: green
     accent: lime
   features:
-    - navigation.instant
+    # - navigation.instant
     # - navigation.sections
     - navigation.expand
     - search.suggest
