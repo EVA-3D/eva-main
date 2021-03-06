@@ -36,6 +36,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: Set up Python runtime
         uses: actions/setup-python@v2
         with:
@@ -45,7 +47,7 @@ jobs:
         with:
           poetry-version: 1.1.4
       - name: Install Python dependencies
-        run: poetry install --no-dev
+        run: poetry install
       - name: Install Insiders
         run: poetry run pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - name: Deploy documentation
