@@ -17,7 +17,6 @@ mkdocs-material = "^7.0.4"
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"
 readline = "^6.2.4"
-eva-3d = {path = "eva-docs-builder", develop = true}
 ipdb = "^0.13.4"
 black = "^20.8b1"
 
