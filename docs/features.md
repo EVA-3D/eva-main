@@ -29,7 +29,7 @@ EVA can be mounted on printers with **CoreXY**, **Cartesian** and **IDEX** motio
 
 ## MGN carriages
 
-EVA can be mounted on **MGN12C**, **MGN12H** and **MGN15H** carriages.
+EVA can be mounted on **MGN12C**, **MGN12H** and **MGN15C** carriages.
 
 ![MGNs](assets/mgns.png)
 
