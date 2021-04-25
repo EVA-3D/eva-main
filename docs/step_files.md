@@ -19,3 +19,7 @@ Comming soon...
 For now if you want to contribute reach out to me on Discord. Let me know what's the idea you and if it'll fit what EVA is supposed to be you'll receive a repository in the EVA-3D Github Organization, from there you will be able to maintain your mod accordingly.
 
 The [EVA 2 / Spec](https://eva-3d.github.io/eva-spec/) page may come in handy.
+
+## Community Contributions
+
+Your contribution is always welcome, even if it doesn't conform 100% to the eva spec, for that there's the [EVA / Contrib Page](contrib.eva-3d.page) where you'll find a guide to submit your contribution. Thank you!
