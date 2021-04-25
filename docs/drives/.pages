@@ -1,9 +1,10 @@
 collapse_single_pages: true
 nav:
-    - bmg
+    - lgx
     - orbiter
+    - bmg
     - titan
-    - aero
     - hemera
     - bowden
     - ...
+    - aero

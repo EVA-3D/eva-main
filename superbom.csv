@@ -41,7 +41,7 @@ mosquito_support,1,PETG
 top_endstop_plug_mgn15,1,PETG
 top_titan_mgn15,1,PETG
 DIN 912 M3 40 mm,4,Hardened Alloy Steel
-DIN 912 M3 6 mm,1,Hardened Alloy Steel
+DIN 912 M3 6 mm,3,Hardened Alloy Steel
 bottom_mgn15,1,PETG
 PTFE 58.4mm,1,- None -
 Dragon hotend,1,- None -
@@ -79,3 +79,4 @@ TITAN-SINK-175-RH,1,- None -
 aero_support,1,PETG
 aero_front_probe,1,PETG
 aero_front_probe_blank,1,PETG
+top_endstop_angled,1,PETG

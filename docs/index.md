@@ -11,26 +11,13 @@ title: Introduction
 
 EVA is a carriage platform for MGN rail based printers. The main goal is to support what people may have laying around or have easy access to. EVA is trying to implement that goal.
 
-The specification is described in a separate {{ eva_link("spec") }} document.
-
-### Parts explained
-
-The _Bowden_ variant is the parent of all other drive variants in EVA 2.
-
-The main parts (==sub assemblies==) of EVA 2 are:
-
-- **front** - which changes based on the choosen hotend, e.g. E3D V6 vs a Mosquito.
-- **top** - specified by the preferred drive - in this case there is no drive as for a bowden assembly a 3rd party drive is on the frame.
-- **back** - different for motion systems - CoreXY is the default.
-- **bottom** - mainly serves the purpose of being a proxy to a fan duct.
-
-Then there are auxilary parts: **fan duct**, **belt grabbers**, **belt tensioners**, **probe holders**, **cable guides** and **shrouds**.
+The specification is described in a separate [EVA / Spec](https://github.com/EVA-3D/eva-spec) document.
 
 ## Download
 
 The whole package can be downloaded as a ZIP package, otherwise you can navigate to the the specific drive or addon page and download files from there.
 
-[Download :octicons-download-24:]({{download_url}}){: .md-button .md-button--primary }
+[Download :octicons-download-24:](/stls.zip){: .md-button .md-button--primary }
 
 ## Support
 

@@ -9,11 +9,11 @@ fi
 
 submodules=(
     docs/addons/cartesian_idex 
-    docs/addons/fan-ducts 
-    docs/addons/mgn15 
+    docs/addons/fan-ducts
     docs/addons/probes 
     docs/addons/x_endstop 
     docs/drives/aero 
+    docs/drives/lgx 
     docs/drives/bmg 
     docs/drives/bowden 
     docs/drives/hemera 

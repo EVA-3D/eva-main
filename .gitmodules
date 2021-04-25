@@ -37,3 +37,9 @@
 [submodule "docs/drives/orbiter"]
 	path = docs/drives/orbiter
 	url = git@github.com:EVA-3D/eva-orbiter.git
+[submodule "docs/drives/nimble"]
+	path = docs/drives/nimble
+	url = git@github.com:EVA-3D/eva-nimble.git
+[submodule "docs/drives/lgx"]
+	path = docs/drives/lgx
+	url = git@github.com:EVA-3D/eva-lgx.git

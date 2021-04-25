@@ -1,0 +1,22 @@
+Item,Quantity,Name,Material
+1,1,Copperhead - NZL-P___ nozzle_1.75  0.4 VANADIUM,- None -
+2,1,Copperhead - Newport Fasteners 341487-1000 socket head cap screw,- None -
+3,2,Copperhead - AccuGroup SSCL-M3-5-A2 low head socket cap screw,- None -
+4,1,Copperhead - Misumi WSIS-STCB-M2.5 flat washer,- None -
+5,1,Copperhead - John Guest PM1804R collet clip for 4mm tube_1.75,- None -
+6,1,Copperhead - John Guest MM2804N half cartridge for 4mm tube_1.75,- None -
+7,1,COP-P02_ heat sink_WITH SCREW MOUNT 1.75,- None -
+8,1,COP-P010 hot block,- None -
+9,1,COP-P05_ heat break tubes_1.75,- None -
+10,1,COP-P04_ heat break bushing_1.75,- None -
+11,1,COP-P03_ heat break shank_STANDARD,- None -
+12,1,copperhead_face,PETG
+13,1,4010 FAN,- None -
+14,1,copperhead_support_b,PETG
+15,1,copperhead_support_a,PETG
+16,6,"M3  Hex nut ",Hardened Alloy Steel
+17,4,DIN 912 M3 20 mm,Hardened Alloy Steel
+18,1,DIN 912 M3 10 mm,Hardened Alloy Steel
+19,2,DIN 912 M3 30 mm,Hardened Alloy Steel
+20,2,DIN 912 M3 8 mm,Hardened Alloy Steel
+21,1,shroud,PETG

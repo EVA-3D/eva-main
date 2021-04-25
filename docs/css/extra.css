@@ -22,14 +22,6 @@ h2 {
     );
 }
 
-.badge {
-    line-height: 0.6;
-    font-weight: 700 !important;
-    font-size: 0.6rem;
-    padding: 0.1em 0.5em;
-    border-radius: 8px !important;
-}
-
 .md-content__inner {
     margin: 0 .8rem 0;
 }
@@ -49,4 +41,101 @@ h2 {
 
 .sponsors img {
     height: 80px;
+}
+
+.badge {
+    line-height: 0.6;
+    font-weight: 700 !important;
+    font-size: 0.6rem;
+    padding: 0.1em 0.5em;
+    border-radius: 8px !important;
+}
+
+.github-user-badge {
+    padding: 0 !important;
+    border-radius: 20px !important;
+}
+
+.github-user-badge:hover{
+    background-color: var(--md-accent-fg-color);
+}
+
+.github-user-badge img {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin: 5px 0px 5px 5px;
+    float: left;
+}
+
+.github-user-badge span {
+    font-weight: bold;
+    color: var(--md-primary-bg-color);
+    float: left;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 12px;
+    font-size: .7rem;
+}
+
+.github-user-badge:hover span {
+    color: var(--md-accent-bg-color);
+}
+
+.md-header__box {
+    display: block;
+    /* width: 2.7rem; */
+    max-width: 11.7rem;
+}
+.md-box__icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2.4rem;
+    vertical-align: middle;
+    margin: .2rem;
+    padding: .4rem;
+}
+.md-box__items {
+    position: absolute;
+    background-color: var(--md-accent-fg-color);
+    color: var(--md-accent-bg-color);
+    width: 18px;
+    height: 18px;
+    border: 1px solid #333;
+    border-radius: 9px;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 900;
+    font-size: .55rem;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 76.25em) {
+.md-header__source {
+    margin-left: 0;
+}
+}
+
+.add-to-box {
+    position: relative;
+    /* float: right; */
+    /* clear: both; */
+}
+
+.md-button.md-button--primary.in-the-box {
+    color: var(--md-accent-bg-color);
+    background-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+}
+
+add-bom-button {
+    display: none;
+}
+
+details img {
+    padding-bottom: 20px;
+}
+
+.remove {
+    cursor: pointer;
 }

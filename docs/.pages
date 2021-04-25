@@ -1,6 +1,7 @@
 nav:
     - index.md
     - features.md
+    - parts_explained.md
     - printing.md
     - drives
     - addons
