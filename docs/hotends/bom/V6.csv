@@ -1,0 +1,16 @@
+Item,Quantity,Name,Material
+1,1,V6-175-SINK,- None -
+2,1,V6-175-BREAK,- None -
+3,1,V6-BLOCK-CARTRIDGE,- None -
+4,1,V6-NOZZLE-ALL,- None -
+5,1,SOCK,- None -
+6,1,4010 FAN,- None -
+7,2,DIN 912 M3 20 mm,Hardened Alloy Steel
+8,6,"M3  Hex nut ",Hardened Alloy Steel
+9,4,DIN 912 M3 25 mm,Hardened Alloy Steel
+10,2,DIN 912 M3 10 mm,Hardened Alloy Steel
+11,1,v6_face,PETG
+12,1,v6_face_clamp,PETG
+13,1,v6_support,PETG
+14,1,DIN 912 M3 8 mm,Hardened Alloy Steel
+15,1,shroud,PETG

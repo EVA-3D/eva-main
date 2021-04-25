@@ -1,13 +1,58 @@
 ---
-title: Features
+title: Features and Roadmap
 ---
 
-## It's a standard
+## Roadmap
+
+### Future
+
+- [ ] Nova Hotend support
+- [ ] Sherpa Extruder Support
+- [ ] Duet Toolboard support (possibly for [contrib](contrib.eva-3d.page))
+- [ ] Bondtech LGX **FFS** Support (non-FFS was added in 2.3.0)
+- [ ] Additional Cooling
+
+### EVA 2.3.0
+
+- [x] Bondtech LGX Support
+- [x] Slice Engineering Copperhead support
+- [x] Additional variants of Horns Ducts 2.1
+- [x] Box BOM management system in the documentation
+- [x] Split Hotends from drives (easier maintenence)
+- [x] Add belt slots in the universal front
+
+### EVA 2.2.0
+
+- [x] Orbiter Support
+- [x] MGN12H Support
+- [x] Double side endstops
+- [x] Openbuilds microswitch support
+
+### EVA 2.1.0
+
+- [x] Dragon Support
+- [x] Universal Front
+- [x] 3-point hotend mounting
+- [x] Mosquito 40mm fan mount
+
+### EVA 2.0.0
+
+- [x] Belt path change and front belt mounting
+- [x] Revamped repository organisation
+- [x] Shrouds!
+- [x] Modular endstops
+- [x] Additional cable paths
+- [x] Horns Ducts 2.1
+- [x] Redesigned probe mounts
+
+## Features
+
+### It's a standard
 
 If a printer is "EVA Compatible" then it's automatically compatible with everything that comes with EVA - hotends, drives, endstops, bed probes.
 A printer can lock to a specific EVA version and update when the change is sigificant enough while the users can follow updates at a faster pace.
 
-## Universal Front
+### Universal Front
 
 EVA allows you to quickly swap a hotend without fiddling with the belts. Only 6-7 easily accessible screws need to be undone to take the hotend of the carriage to change it or for maintenance purposes.
 
@@ -15,25 +60,25 @@ Hotends compatible with universal front are: **V6**, **Mosquito** and **Dragon**
 
 ![universal_face](assets/universal_face.png)
 
-## Drives
+### Drives
 
 EVA supports different extrusion options - [Titan](../drives/titan), [BMG (and BMG-M)](../drives/bmg), [Orbiter](../drives/orbiter) are mounted on the top and are compatible with all available hotends.
 
 ![drives](assets/drives.png)
 
-## Backs
+### Backs
 
 EVA can be mounted on printers with **CoreXY**, **Cartesian** and **IDEX** motion systems.
 
 ![backs](assets/backs.png)
 
-## MGN carriages
+### MGN carriages
 
 EVA can be mounted on **MGN12C**, **MGN12H** and **MGN15H** carriages.
 
 ![MGNs](assets/mgns.png)
 
-## Bed probing
+### Bed probing
 
 EVA comes with a defined place for 2 point probe mounting. That enables it to handle many probing solutions. **BL-Touch**, **Inductive probes** and **Duet Mini IR probe** (work in progress) are supported "out-of-the-box". 
 

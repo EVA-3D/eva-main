@@ -16,10 +16,17 @@
   <meta property="og:image:height" content="761">
 {% endblock %}
 
+{% block content %}
+
+<div id="{{page.meta.type}}Page">
+{{ super() }}
+</div>
+{% endblock content %}
+
 
 {% block scripts %}
 <script>window.CI360 = { notInitOnLoad: true }</script>
-
+<script>const docsVersion = "{{ config.version }}";</script>
 {{ super() }}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
