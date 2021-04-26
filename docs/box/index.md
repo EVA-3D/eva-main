@@ -9,7 +9,7 @@ hide:
 
     Please feel free to use it, it was tested before release but never on a big scale. If there's anything wrong with the feature please file an issue on [GitHub](https://github.com/EVA-3D/eva-main/issues) or let `@McAbra` know on Discord.
 
-# BOX
+# BOX <small>Your configuration</small>
 
 This is **the box** - a feature of this documentation that is meant
 to help you to figure out which parts you need to build your EVA carriage
@@ -24,6 +24,7 @@ Typically you will need a **drive**, **hotend**, **endstop** and a **bed probe**
                 <th role="columnheader">Name</th>
                 <th role="columnheader">Satisfies</th>
                 <th role="columnheader">Remove</th>
+                <th role="columnheader">CAD</th>
             </tr>
         </thead>
         <tbody>
@@ -31,7 +32,16 @@ Typically you will need a **drive**, **hotend**, **endstop** and a **bed probe**
                 <td>{{item.type}}</td>
                 <td>{{name}}</td>
                 <td>{{item.satisfies | join}}</td>{% endraw %}
-                <td align="center"><a v-on:click="remove(name)" class="remove"><i class="fas fa-minus-circle"></i></a></td>
+                <td align="center">
+                    <a v-on:click="remove(name)" class="remove">
+                        {{ icon("fontawesome-solid-minus-circle") }}
+                    </a>
+                </td>
+                <td align="center">
+                    <a v-bind:href="item.cad_url" target="_blank">
+                        {{ icon("fontawesome-solid-file-import") }}
+                    </a>
+                </td>
             </tr>
         </tbody>
     </table>

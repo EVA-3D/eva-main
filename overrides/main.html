@@ -27,6 +27,20 @@
 {% block scripts %}
 <script>window.CI360 = { notInitOnLoad: true }</script>
 <script>const docsVersion = "{{ config.version }}";</script>
+
+<script type="text/x-template" id="add-to-box-template">{% raw %}
+  <a 
+  class="md-button md-button--primary add-to-box"
+  v-bind:class="{ 'in-the-box': inBox }"
+  v-on:click="add()"
+  >
+  {{ inBox ? 'In the box' : 'Add to box' }}{% endraw %}
+    <span class="twemoji">
+      {% include ".icons/fontawesome/solid/box-open.svg" %}
+    </span>
+  </a>
+</script>
+
 {{ super() }}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

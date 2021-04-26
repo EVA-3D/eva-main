@@ -28,5 +28,6 @@ for i in "${submodules[@]}"; do
     git add .
     git commit -m "$1" || true
     git push origin main
+    # git reset --hard HEAD
     cd $path
 done

@@ -15,6 +15,7 @@ mkdocs-exclude = "^1.0.2"
 mkdocs-material = "^7.0.4"
 pydantic = "^1.8.1"
 python-slugify = "^4.0.1"
+msgpack = "^1.0.2"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"

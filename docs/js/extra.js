@@ -210,14 +210,7 @@ var boxLink = new Vue({
 
 Vue.component('add-bom-button', {
     props: ['name'],
-    template: `
-    <a 
-        class="md-button md-button--primary add-to-box"
-        v-bind:class="{ 'in-the-box': inBox }"
-        v-on:click="add()"
-    >{{ inBox ? 'In the box' : 'Add to box' }} <span class="twemoji"><i class="fas fa-box-open"></i></span>
-    </a>
-    `,
+    template: "#add-to-box-template",
     beforeCreate() { this.$store.commit('initialiseStore');},
     computed: {
         inBox () {
@@ -227,7 +220,7 @@ Vue.component('add-bom-button', {
     methods: {
         add () {
             var item = {};
-            item[this.name] = JSON.parse(this.$slots.default[0].text)
+            item[this.name] = JSON.parse(atob(this.$slots.default[0].text));
             this.$store.commit('add', item);
         },
     },
