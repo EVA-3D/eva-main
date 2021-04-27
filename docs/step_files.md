@@ -22,4 +22,4 @@ The [EVA 2 / Spec](https://eva-3d.github.io/eva-spec/) page may come in handy.
 
 ## Community Contributions
 
-Your contribution is always welcome, even if it doesn't conform 100% to the eva spec, for that there's the [EVA / Contrib Page](contrib.eva-3d.page) where you'll find a guide to submit your contribution. Thank you!
+Your contribution is always welcome, even if it doesn't conform 100% to the eva spec, for that there's the [EVA / Contrib Page](https://contrib.eva-3d.page) where you'll find a guide to submit your contribution. Thank you!

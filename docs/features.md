@@ -8,7 +8,7 @@ title: Features and Roadmap
 
 - [ ] Nova Hotend support
 - [ ] Sherpa Extruder Support
-- [ ] Duet Toolboard support (possibly for [contrib](contrib.eva-3d.page))
+- [ ] Duet Toolboard support (possibly for [contrib](https://contrib.eva-3d.page))
 - [ ] Bondtech LGX **FFS** Support (non-FFS was added in 2.3.0)
 - [ ] Additional Cooling
 
