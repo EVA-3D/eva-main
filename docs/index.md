@@ -17,7 +17,7 @@ The specification is described in a separate [EVA / Spec](https://github.com/EVA
 
 The whole package can be downloaded as a ZIP package, otherwise you can navigate to the the specific drive or addon page and download files from there.
 
-[Download :octicons-download-24:](https://github.com/EVA-3D/eva-main/blob/main/docs/stls.zip?raw=true){: .md-button .md-button--primary }
+[Download :octicons-download-24:](https://github.com/EVA-3D/eva-main/blob/main/stls.zip?raw=true){: .md-button .md-button--primary }
 
 ## Support
 
