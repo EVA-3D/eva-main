@@ -16,7 +16,7 @@ satisfies:
 
 ![preview](assets/Copperhead.png)
 
-### Bill of materials
+## Bill of materials
 
 
 <add-bom-button name="{{ meta.uid }}">
@@ -24,3 +24,8 @@ satisfies:
 </add-bom-button>
 
 {{ bom_to_md_table("Copperhead.csv", 4) }}
+
+## Links
+
+{{ download_button }}
+{{ cad_link }}

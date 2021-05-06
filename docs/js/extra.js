@@ -196,6 +196,75 @@ var boxApp = new Vue({
     }
 })
 
+var superboxApp = new Vue({
+    el: "#superboxPage",
+    store: store,
+    beforeCreate() { this.$store.commit('initialiseStore');},
+    data: {
+        satisfiesMap: {
+            drive: "Drive",
+            hotend: "Hotend",
+            endstop: "Endstop",
+            bed_probe: "Bed probe",
+        }
+    },
+    filters: {
+        join: function (value) {
+          if (!value) return ''
+          return value.join(', ')
+        }
+    },
+    computed: {
+        items () {
+            return this.$store.getters.items
+        },
+        itemsCount () {
+            return Object.keys(this.items).length;
+        },
+        parts () {
+            var parts = {};
+            for (const [name, item] of Object.entries(this.items)) {
+                for (part of item.parts) {
+                    if (parts.hasOwnProperty(part.slug)) {
+                        if (part.qty > parts[part.slug].qty) {
+                            parts[part.slug].qty = part.qty;
+                        }
+                    } else {
+                        parts[part.slug] = part;
+                    }
+                }
+            }
+            return parts;
+        },
+        satisfaction () {
+            return this.$store.getters.satisfaction
+        },
+        satisfactionList () {
+            var satisfcation = [];
+            for (const [name, state] of Object.entries(this.satisfaction)) {
+                if (state === true) {
+                    satisfcation.push(name);
+                }
+            }
+            return satisfcation
+        },
+        missing () {
+            var missing = false;
+            for (const [name, state] of Object.entries(this.satisfaction)) {
+                if (state === false) {
+                    missing = true;
+                }
+            }
+            return missing
+        }
+    },
+    methods: {
+        remove(name) {
+            this.$store.commit("remove", name)
+        }
+    }
+});
+
 var boxLink = new Vue({
     el: '#boxLink',
     store: store,
