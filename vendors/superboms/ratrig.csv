@@ -1,4 +1,4 @@
-namespace,eva_part_name,qty,type,vendor_part_name,vendor_sku
+eva_part_name,qty,type,vendor_part_name,vendor_sku
 4010 FAN,1,hardware,Fan - 40mm Axial Brushless 24V DC,HW2044EC
 5015 fan,2,hardware,Fan - 50mm Blower Type 24V DC,HW2045EC
 BLTouch,1,hardware,BLTouch v3.1 - Genuine Antclabs Auto Bed Leveling Sensor,HW2086EC
