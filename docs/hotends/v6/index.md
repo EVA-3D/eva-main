@@ -10,6 +10,10 @@ contributors:
 cad_url: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/e2fc56d355d28a162332ce38
 satisfies:
     - hotend
+boms:
+    - id: V6
+      source: ./bom/V6.csv
+      namespace: hotends
 ---
 
 # E3D V6
@@ -20,10 +24,10 @@ satisfies:
 
 
 <add-bom-button name="{{ meta.uid }}">
-    {{ bom_to_json("V6.csv") }}
+    {{ get_bom("V6").json()|b64encode }}
 </add-bom-button>
 
-{{ bom_to_md_table("V6.csv", 4) }}
+{{ get_bom("V6").md_table(4) }}
 
 ## Links
 

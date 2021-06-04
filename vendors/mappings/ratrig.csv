@@ -1,0 +1,106 @@
+eva_part_name,eva_part_type,vendor_part_name,vendor_sku,vendor_ignore
+4010 FAN,,Fan - 40mm Axial Brushless 24V DC,HW2044EC,
+5015 fan,,Fan - 50mm Blower Type 24V DC,HW2045EC,
+BLTouch,,BLTouch v3.1 - Genuine Antclabs Auto Bed Leveling Sensor,HW2086EC,
+BMG_Extruder,,Bondtech BMG Extruder - 1.75mm - Standard Orientation,HW2032EC,
+COP-P010 hot block,,,,Y
+COP-P02_ heat sink_WITH SCREW MOUNT 1.75,,,,Y
+COP-P03_ heat break shank_STANDARD,,,,Y
+COP-P04_ heat break bushing_1.75,,,,Y
+COP-P05_ heat break tubes_1.75,,,,Y
+Copperhead - AccuGroup SSCL-M3-5-A2 low head socket cap screw,,,,Y
+Copperhead - John Guest MM2804N half cartridge for 4mm tube_1.75,,,,Y
+Copperhead - John Guest PM1804R collet clip for 4mm tube_1.75,,,,Y
+Copperhead - Misumi WSIS-STCB-M2.5 flat washer,,,,Y
+Copperhead - NZL-P___ nozzle_1.75  0.4 VANADIUM,,,,Y
+Copperhead - Newport Fasteners 341487-1000 socket head cap screw,,,,Y
+DIN 912 M2 10 mm,hardware,Cap Head Screw M2 (Single) (Length: 10mm),HW1283SC,
+DIN 912 M2.5 10 mm,hardware,Cap Head Screw M2.5 (Single) (Length: 10mm),HW2346SC,
+DIN 912 M2.5 12 mm,hardware,Cap Head Screw M2.5 (Single) (Length: 12mm),HW2347SC,
+DIN 912 M3 10 mm,hardware,Cap Head Screw M3 (Single) (Length: 10mm),HW1505SC,
+DIN 912 M3 12 mm,hardware,Cap Head Screw M3 (Single) (Length: 12mm),HW1292SC,
+DIN 912 M3 16 mm,hardware,Cap Head Screw M3 (Single) (Length: 16mm),HW1507SC,
+DIN 912 M3 20 mm,hardware,Cap Head Screw M3 (Single) (Length: 20mm),HW1504SC,
+DIN 912 M3 25 mm,hardware,Cap Head Screw M3 (Single) (Length: 25mm),HW1290SC,
+DIN 912 M3 30 mm,hardware,Cap Head Screw M3 (Single) (Length: 30mm),HW1227SK,
+DIN 912 M3 35 mm,hardware,Cap Head Screw M3 (Single) (Length: 35mm),HW1868SC,
+DIN 912 M3 40 mm,hardware,Cap Head Screw M3 (Single) (Length: 40mm),HW1869SC,
+DIN 912 M3 6 mm,hardware,Cap Head Screw M3 (Single) (Length: 6mm),HW2348SC,
+DIN 912 M3 8 mm,hardware,Cap Head Screw M3 (Single) (Length: 8mm),HW1502SC,
+DIN 912 M5 45 mm,hardware,Cap Head Screw M5 (Single) (Length: 45mm),HW2074SC,
+Dragon hotend,,,,Y
+Duct v2.1 Angled 13.2deg,printed,,,
+Duct v2.1 Straight,printed,,,
+E3D Titan,,E3D TITAN Extruder - Direct Drive - Standard Orientation,HW2031EC,Y
+HEMERA-175-SINK_1_1_1_1,,,,Y
+Housing 1.5,,,,Y
+LGX with copperhead screwmount,,,,Y
+M3  Hex nut,hardware,Hex Locking Nut - M3,HW1251NC,
+M3s nut,hardware,Flat Square Nut - M3 (5.5mm x 5.5mm x 1.8mm),HW2010NC,
+M5  Hex nut Nyloc,hardware,Hex Locking Nut - M5,HW1039NC,
+Micro Limit Switch,,Micro Limit Switch,HW1071EC,
+PC4-M6,,,,Y
+PTFE 60mm,,,,Y
+PTFE 65mm,,,,Y
+PTFE 75mm,,,,Y
+SOCK,,,,Y
+SSX_tensioner_thing_2426505,printed,,,
+TITAN-SINK-175-RH,,,,Y
+V6-175-BREAK,,,,Y
+V6-175-SINK,,,,Y
+V6-BLOCK-CARTRIDGE,,,,Y
+V6-NOZZLE-ALL,,,,Y
+aero_face,printed,,,
+aero_front_probe,printed,,,
+aero_front_probe_blank,printed,,,
+aero_support,printed,,,
+back_cartesian,printed,,,
+back_corexy,printed,,,
+bl_touch_mount,printed,,,
+bl_touch_mount_alt,printed,,,
+bl_touch_mount_alt_volcano,printed,,,
+bl_touch_mount_volcano,printed,,,
+bottom_mgn12_aero,printed,,,
+bottom_mgn12_hemera,printed,,,
+bottom_mgn12_short_duct,printed,,,
+bottom_mgn15,printed,,,
+bottom_mgn15_aero,printed,,,
+bottom_mgn15_hemera,printed,,,
+cable_holder,printed,,,
+cartesian_cable_fin,printed,,,
+copperhead_face,printed,,,
+copperhead_support_a,printed,,,
+copperhead_support_b,printed,,,
+dragon_face,printed,,,
+face_belt_grabber,printed,,,
+hemera_face,printed,,,
+hemera_probe_adapter,printed,,,
+mosquito_face,printed,,,
+mosquito_support,printed,,,
+press fit,printed,,,
+shroud,printed,,,
+tension_slider_6mm_belt_M3s,printed,,,
+tension_slider_9mm_belt_M5,printed,,,
+top_angled_endstop_plug_mgn15,printed,,,
+top_bmg_mgn12,printed,,,
+top_bmg_mgn15,printed,,,
+top_endstop_angled,printed,,,
+top_endstop_openbuilds,printed,,,
+top_endstop_openbuilds_mgn15,printed,,,
+top_endstop_plug_mgn12,printed,,,
+top_endstop_plug_mgn15,printed,,,
+top_lgx_mgn12_a,printed,,,
+top_lgx_mgn12_b,printed,,,
+top_lgx_mgn15_a,printed,,,
+top_lgx_mgn15_b,printed,,,
+top_mgn12,printed,,,
+top_mgn15,printed,,,
+top_orbiter_mgn12,printed,,,
+top_orbiter_mgn15,printed,,,
+top_titan_mgn12,printed,,,
+top_titan_mgn15,printed,,,
+universal_face,printed,,,
+unversal_cable_mount,printed,,,
+v6_face,printed,,,
+v6_face_clamp,printed,,,
+v6_support,printed,,,

@@ -10,6 +10,10 @@ contributors:
 cad_url: https://cad.onshape.com/documents/980a8bb4514542eeb90c5c21/w/fd1e2bf7da865e46d00cc945/e/7a40b6f26ab1209ef8f4cf56
 satisfies:
     - hotend
+boms:
+    - id: Copperhead
+      source: ./bom/Copperhead.csv
+      namespace: hotends
 ---
 
 # Copperhead
@@ -20,10 +24,10 @@ satisfies:
 
 
 <add-bom-button name="{{ meta.uid }}">
-    {{ bom_to_json("Copperhead.csv") }}
+    {{ get_bom("Copperhead").json()|b64encode }}
 </add-bom-button>
 
-{{ bom_to_md_table("Copperhead.csv", 4) }}
+{{ get_bom("Copperhead").md_table(4) }}
 
 ## Links
 

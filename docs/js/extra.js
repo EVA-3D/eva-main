@@ -279,7 +279,18 @@ var boxLink = new Vue({
 
 Vue.component('add-bom-button', {
     props: ['name'],
-    template: "#add-to-box-template",
+    template: ```
+      <a 
+        class="md-button md-button--primary add-to-box"
+        v-bind:class="{ 'in-the-box': inBox }"
+        v-on:click="add()"
+        >
+        {{ inBox ? 'In the box' : 'Add to box' }}
+            <span class="twemoji">
+            {% include ".icons/fontawesome/solid/box-open.svg" %}
+            </span>
+        </a>
+    ```,
     beforeCreate() { this.$store.commit('initialiseStore');},
     computed: {
         inBox () {

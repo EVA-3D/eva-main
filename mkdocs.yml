@@ -10,6 +10,11 @@ repo_name: EVA-3D / eva-main
 repo_url: https://github.com/EVA-3D/eva-main
 version: 2.3.0
 
+vendors:
+  - name: Rat Rig
+    mapping_file: vendors/mappings/ratrig.csv
+    out_file: vendors/superboms/ratrig.csv
+
 theme:
   logo: assets/logo_white_outline.svg
   favicon: assets/logo_white_outline.svg
