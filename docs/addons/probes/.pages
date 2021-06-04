@@ -1,0 +1,3 @@
+collapse_single_pages: true
+nav:
+    - index.md
