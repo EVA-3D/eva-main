@@ -8,9 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please take the time to properly fill out the form. Properly
-        would mean providing as much context as possible to help us fix the issue as 
-        quick as possible.  
+        Please take the time to properly fill out the form. Properly would mean providing as much context as possible to help us fix the issue as quick as possible.  
         
         **Issues without context or description will be closed**
         
