@@ -48,7 +48,7 @@ One does not need a keen eye to see that this design is based on many different 
 
 * [Rat Rig](https://www.ratrig.com/) for making the V-core which is the perfect sanbox for building and modding a 3D Printer
 * [pekcitron](https://www.thingiverse.com/pekcitron/about) for the [Prusa Bear Upgrade](https://www.thingiverse.com/thing:2808408)
-* [BLV](https://www.thingiverse.com/BLV/about) and his amazing [BLV mgn cube](https://www.thingiverse.com/thing:3382718)
+* [BLV](https://www.blvprojects.com/) and his amazing [BLV mgn cube](https://www.blvprojects.com/blv-mgn-cube-3d-printer)
 
 The following people deserve special credit for their amazing work - making some of the parts, providing guidance, testing parts, keeping me in check. Their input was a huge help so please do me a favor and check out their work:
 
