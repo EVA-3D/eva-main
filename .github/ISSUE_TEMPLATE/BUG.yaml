@@ -1,0 +1,56 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: [bug, triage]
+assignees:
+  - pkucmus
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please take the time to properly fill out the form. Properly would mean providing as much context as possible to help us fix the issue as quick as possible.  
+        
+        **Issues without context or description will be closed**
+        
+        Also before filing a bug make sure it's an EVA bug, do that by seeking help on [Discord](https://discord.gg/ZqYPqn6SxE)
+  - type: input
+    id: contact
+    attributes:
+      label: Discord username
+      description: How can we get in touch with you if we need more info?
+      placeholder: User#1234
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Description of the issue
+      placeholder: for e.g. the top_bmg_mgn12 part does not interface correctly with the corexy_back
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: EVA Version
+      placeholder: "2.3.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: printer
+    attributes:
+      label: Which printer are you using?
+      multiple: true
+      options:
+        - V-Core 3
+        - V-Core Pro 1.3
+        - V-Cast
+        - Other
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      description: Make sure you have met the requirements to file the issue
+      options:
+        - label: I did seek help on Discord and found none or was instructed that this is indeed an EVA bug.
+          required: true
