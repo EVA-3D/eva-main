@@ -2,7 +2,7 @@
 title: Parts Explained
 ---
 
-An EVA carriage is build out of components that each have functional properties, typically the features are split as follows:
+An EVA carriage is built out of components that each have functional properties, typically the features are split as follows:
 
 ## Front
 Where we distinguish the universal front that can carry different hotends or compact extruders like Hemera or Aero 
@@ -39,4 +39,4 @@ Allowing to mount different types of bed probes
 Acting as strain relief for the carriage cables
 
 ## Shrouds
-Purely ascetic
+Purely aesthetic

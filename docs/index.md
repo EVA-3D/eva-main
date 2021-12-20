@@ -15,7 +15,7 @@ The specification is described in a separate [EVA / Spec](https://github.com/EVA
 
 ## Download
 
-The whole package can be downloaded as a ZIP package, otherwise you can navigate to the the specific drive or addon page and download files from there.
+The whole package can be downloaded as a ZIP package, otherwise you can navigate to the the specific drive, hotend or addon page and download files from there.
 
 [Download :octicons-download-24:](https://github.com/EVA-3D/eva-main/blob/main/stls.zip?raw=true){: .md-button .md-button--primary }
 
@@ -25,14 +25,11 @@ Big thanks to the users - one example is that only thanks to your donations the 
 
 If you want to support the project or just buy me coffee you can [:fontawesome-brands-paypal: Paypal.me](https://www.paypal.me/pkucmus).
 
-The project also received or receives continuous support from the companies we all know. Big thank you!
+In a huge part the project exists thatks to Rat Rig - they help me out with screws and nuts but also hotends and boards:
 
 <p class="sponsors">
     <a href="https://www.ratrig.com/" >
         <img src="assets/ratrig.png" height="200"/>
-    </a>
-    <a href="https://www.bondtech.se/">
-        <img src="assets/bondtech.png" height="200"/>
     </a>
 </p>
 
@@ -46,7 +43,7 @@ Issues, problems, feature requests, requests for compatibility with different pr
 
 One does not need a keen eye to see that this design is based on many different designs that are out in the wild - although all the parts here are made from scratch - their authors deserve credit (their work provided inspiration):
 
-* [Rat Rig](https://www.ratrig.com/) for making the V-core which is the perfect sanbox for building and modding a 3D Printer
+* [Rat Rig](https://www.ratrig.com/) for making the V-core which is the perfect sandbox for building and modding a 3D Printer
 * [pekcitron](https://www.thingiverse.com/pekcitron/about) for the [Prusa Bear Upgrade](https://www.thingiverse.com/thing:2808408)
 * [BLV](https://www.blvprojects.com/) and his amazing [BLV mgn cube](https://www.blvprojects.com/blv-mgn-cube-3d-printer)
 
@@ -64,10 +61,13 @@ For Rat Rig V-core Pro the [Easy Mod](https://github.com/pkucmus/Easy-Mod) is re
 
 EVA is now officially used by Rat Rig in their products :tada: :
 
+* [V-Core 3](https://v-core3.ratrig.com/)
+* V-Minion - comming soon!
 * [V-core Pro (with Easy Mod)](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html)
 * [V-cast](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-cast.html)
 
 ## Contact
 
-If you need a more direct contact I'm on the [Rat Rig Unofficial Discord Server](https://discord.gg/DcCEk8u) along with many awesome people that will surely help :smile:
+If you need a more direct contact I'm (`McAbra#1650`) on the [Rat Rig Unofficial Discord Server](https://discord.gg/DcCEk8u) along with many awesome people that will surely help :smile:
 
+<email-button seconds="5"/>

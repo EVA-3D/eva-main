@@ -131,3 +131,5 @@ dmypy.json
 downloads/
 .vscode/
 dump/
+
+*.db

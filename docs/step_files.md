@@ -1,5 +1,5 @@
 ---
-title: STEP Files and contribution
+title: STEP Files and Licence
 ---
 
 # STEP Files
@@ -8,17 +8,12 @@ title: STEP Files and contribution
 
     Please make sure to understand that while using onshape links to export STLs you are effectively pulling unstable and untested parts. Those are links that guide to live documents that change as EVA is developed.
 
-Each project page contains a Onshape link to it's Onshape document. From there the parts can be exported to many different formats.
+Each project page contains an Onshape link to it's Onshape document. From there the parts can be exported to many different formats.
 
-Please remember that it's done under the [GPL-3.0 License]({{config.repo_url}}/blob/master/LICENSE).
+# Licence
+EVA is released under GPLv3 which is a mistake I made in the past, I thought about changing that but it's too much work. With that I'd like to ask for you to consider the work put into EVA and if you are making money of it maybe donate some :wink:, at the very least please attribute by linking to this page.
 
-## Contribution Guide
-
-Comming soon...
-
-For now if you want to contribute reach out to me on Discord. Let me know what's the idea you and if it'll fit what EVA is supposed to be you'll receive a repository in the EVA-3D Github Organization, from there you will be able to maintain your mod accordingly.
-
-The [EVA 2 / Spec](https://eva-3d.github.io/eva-spec/) page may come in handy.
+Direct contact to me can be found on the [introduction page](/).
 
 ## Community Contributions
 

@@ -1,46 +1,85 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  {% set title = config.site_name %}
-  {% if page and page.title and not page.is_homepage %}
-    {% set title = config.site_name ~ " - " ~ page.title | striptags %}
-  {% endif %}
-  {% set image = config.site_url ~ 'assets/banner.png' %}
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:description" content="{{ config.site_description }}">
-  <meta property="og:url" content="{{ page.canonical_url }}">
-  <meta property="og:image" content="{{ image }}">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1080">
-  <meta property="og:image:height" content="761">
+{% set title = config.site_name %}
+{% if page and page.title and not page.is_homepage %}
+{% set title = config.site_name ~ " - " ~ page.title | striptags %}
+{% endif %}
+{% set image = config.site_url ~ 'assets/banner.png' %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ config.site_description }}">
+<meta property="og:url" content="{{ page.canonical_url }}">
+<meta property="og:image" content="{{ image }}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="761">
 {% endblock %}
 
 {% block content %}
 
-<div id="{{page.meta.type}}Page">
-{{ super() }}
+<div id="{{page.eva.type}}Page">
+    {{ super() }}
 </div>
 {% endblock content %}
 
 
 {% block scripts %}
+<script>window.CI360 = { notInitOnLoad: true }</script>
 <script>const docsVersion = "{{ config.version }}";</script>
+
+<script type="text/x-template" id="email-button-template">
+    <div>
+        <a class="md-button md-button--primary add-to-box" v-on:click="load()" v-if="!clicked">
+            Click here for email
+            <span class="twemoji">
+                {% include ".icons/material/email-lock.svg" %}
+            </span>
+        </a>
+        <a class="md-button add-to-box" v-if="loading">
+            Loading... ({% raw %}{{ seconds_left }}{% endraw %})
+            <span class="twemoji">
+                {% include ".icons/material/email-sync.svg" %}
+            </span>
+        </a>
+        <a class="md-button md-button--primary add-to-box" v-if="loaded" v-bind:href="href">
+            {% raw %}{{ first_name[0] }}{{ last_name }}@gmail.com{% endraw %}
+            <span class="twemoji">
+                {% include ".icons/material/email-check.svg" %}
+            </span>
+        </a>
+    </div>
+</script>
+<script type="text/x-template" id="add-to-box-template">{% raw %}
+  <a 
+  class="md-button md-button--primary add-to-box"
+  v-bind:class="{ 'in-the-box': inBox }"
+  v-on:click="add()"
+  >
+  {{ inBox ? 'In the box' : 'Add to box' }}{% endraw %}
+    <span class="twemoji">
+      {% include ".icons/fontawesome/solid/box-open.svg" %}
+    </span>
+  </a>
+</script>
+
+
+
 
 {{ super() }}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-56120L4BRQ"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'analytics_storage': 'denied'
-  });
-  gtag('set', 'ads_data_redaction', true);
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied'
+    });
+    gtag('set', 'ads_data_redaction', true);
+    gtag('js', new Date());
 
-  gtag('config', 'G-56120L4BRQ');
+    gtag('config', 'G-56120L4BRQ');
 </script>
 {% endblock scripts %}

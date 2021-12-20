@@ -3,8 +3,10 @@ nav:
     - features.md
     - parts_explained.md
     - printing.md
+    - hotends
     - drives
     - addons
     - ...
     - step_files.md
     - Community Contributions: https://contrib.eva-3d.page
+    - queen.md

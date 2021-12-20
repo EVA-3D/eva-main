@@ -1,57 +1,44 @@
 ---
 title: Hemera
+icon: material/cog-pause
 uid: EVA / Hemera
 type: drive
+spec: 2.3.0
 badges:
-    - Official
+    - official
 contributors: 
     - pkucmus
-repo_url: https://github.com/EVA-3D/eva-hemera
 cad_url: https://cad.onshape.com/documents/371450c83b99fdd5844f4b0c/w/6283a21a1cfe91323a72f862/e/1fc412a1de950c20053d2aaa
 satisfies:
     - drive
-    - hotend
-boms:
-    - id: Hemera.MGN12
-      source: ./bom/Hemera.MGN12.csv
-      namespace: drives
-    - id: Hemera.MGN15
-      source: ./bom/Hemera.MGN15.csv
-      namespace: drives
+usage: 0.052
 ---
-# Hemera
 
-![preview](assets/Hemera.__ALL__.png)
+{% extends 'drives.md' %}
 
-E3D Hemera is another example of the front heavy EVAs. The motor is huge and the whole extruder takes a lot of space so make sure to understand that the full print volume may not be accessible when using this EVA variant.
+{% block header %}
+??? warning "EVA / Hemera is still on EVA 2.3.0"
+
+    Due to the reasons described bellow I had to omit upgrading Hemera to the newest spec, the main issue is the need for driving the main 35-40mm screws from the back. Sorry.
+
+??? danger "Possible deprecation warning"
+
+    EVA / Hemera takes 50% of the work while being used by only 5.2% of the users, it's not fully to spec and in general Hemera is not a great fit for EVA. I don't want to be slowed down by it and my goal is to get rid of it from the platform.
+    
+    This means that it will stop receiving upgrades but will forever be available in the 2.3.0 version in it's [submodule repository](https://github.com/EVA-3D/eva-hemera).
+
+{% endblock header %}
+
+{% block description %}
+
+E3D Hemera is an example of the front heavy EVAs (Aero was the same). The motor is huge and the whole extruder takes a lot of space so make sure to understand that the **full print volume may not be accessible** when using this EVA variant.
 
 ??? question "Why not bellow the rail?"
 
-    I tried that on Aero - more informatino there.
+    I tried that on Aero - it did not work and was rendering it out of spec even more.
 
 Hemera's motor needs to be put on quite early in the assembly process, remember to grab the right belt before putting it on.
 
-### Bill of materials
+{{ super() }}
 
-
-=== "MGN12"
-
-    <add-bom-button name="{{ meta.uid }} (MGN12)">
-        {{ get_bom("Hemera.MGN12").json()|b64encode }}
-    </add-bom-button>
-    
-    {{ get_bom("Hemera.MGN12").md_table(4) }}
-
-
-=== "MGN15"
-
-    <add-bom-button name="{{ meta.uid }} (MGN15)">
-        {{ get_bom("Hemera.MGN15").json()|b64encode }}
-    </add-bom-button>
-    
-    {{ get_bom("Hemera.MGN15").md_table(4) }}
-
-### Links
-
-{{ download_button }}
-{{ cad_link }}
+{% endblock description %}

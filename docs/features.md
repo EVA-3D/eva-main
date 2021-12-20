@@ -6,11 +6,17 @@ title: Features and Roadmap
 
 ### Future
 
-- [ ] Nova Hotend support
-- [ ] Sherpa Extruder Support
-- [ ] Duet Toolboard support (possibly for [contrib](https://contrib.eva-3d.page))
-- [ ] Bondtech LGX **FFS** Support (non-FFS was added in 2.3.0)
-- [ ] Additional Cooling
+- [ ] REVO Support (it's prepared but I can't publish yet)
+- [ ] HIC Support
+- [ ] EVA 3.0 :question:
+### EVA 2.4.0
+
+- [x] Nova Hotend support
+- [x] BMO Hotend support
+- [x] Rapido Hotend support
+- [x] LGX Lite support
+- [x] Sherpa Extruder Support
+- [x] Additional Cooling
 
 ### EVA 2.3.0
 
@@ -45,6 +51,11 @@ title: Features and Roadmap
 - [x] Horns Ducts 2.1
 - [x] Redesigned probe mounts
 
+### Dropped ideas
+
+- [ ] Duet Toolboard support (possibly for [contrib](https://contrib.eva-3d.page))
+- [ ] Bondtech LGX **FFS** Support (non-FFS was added in 2.3.0)
+
 ## Features
 
 ### It's a standard
@@ -74,7 +85,7 @@ EVA can be mounted on printers with **CoreXY**, **Cartesian** and **IDEX** motio
 
 ### MGN carriages
 
-EVA can be mounted on **MGN12C**, **MGN12H** and **MGN15C** carriages.
+EVA can be mounted on **MGN12C** and **MGN12H** carriages. **MGN15C** support was dropped in 2.4.0.
 
 ![MGNs](assets/mgns.png)
 

@@ -1,4 +1,4 @@
-(function (funcName, baseObj) {
+(function(funcName, baseObj) {
     "use strict";
     // The public function name defaults to window.docReady
     // but you can modify the last line of this function to pass in a different object or method name
@@ -40,14 +40,14 @@
     // docReady(fn, context);
     // the context argument is optional - if present, it will be passed
     // as an argument to the callback
-    baseObj[funcName] = function (callback, context) {
+    baseObj[funcName] = function(callback, context) {
         if (typeof callback !== "function") {
             throw new TypeError("callback for docReady(fn) must be a function");
         }
         // if ready has already fired, then just schedule the callback
         // to fire asynchronously, but right away
         if (readyFired) {
-            setTimeout(function () { callback(context); }, 1);
+            setTimeout(function() { callback(context); }, 1);
             return;
         } else {
             // add the function and context to the list
@@ -119,7 +119,7 @@ const store = new Vuex.Store({
             }
         },
         add: (state, item) => {
-            state.box.items = {...state.box.items, ...item};
+            state.box.items = {...state.box.items, ...item };
             localStorage.setItem("box", JSON.stringify(state.box));
         },
         remove: (state, item_name) => {
@@ -132,7 +132,7 @@ const store = new Vuex.Store({
 var boxApp = new Vue({
     el: '#boxPage',
     store: store,
-    beforeCreate() { this.$store.commit('initialiseStore');},
+    beforeCreate() { this.$store.commit('initialiseStore'); },
     data: {
         satisfiesMap: {
             drive: "Drive",
@@ -142,19 +142,19 @@ var boxApp = new Vue({
         }
     },
     filters: {
-        join: function (value) {
-          if (!value) return ''
-          return value.join(', ')
+        join: function(value) {
+            if (!value) return ''
+            return value.join(', ')
         }
     },
     computed: {
-        items () {
+        items() {
             return this.$store.getters.items
         },
-        itemsCount () {
+        itemsCount() {
             return Object.keys(this.items).length;
         },
-        parts () {
+        parts() {
             var parts = {};
             for (const [name, item] of Object.entries(this.items)) {
                 for (part of item.parts) {
@@ -167,10 +167,10 @@ var boxApp = new Vue({
             }
             return parts;
         },
-        satisfaction () {
+        satisfaction() {
             return this.$store.getters.satisfaction
         },
-        satisfactionList () {
+        satisfactionList() {
             var satisfcation = [];
             for (const [name, state] of Object.entries(this.satisfaction)) {
                 if (state === true) {
@@ -179,7 +179,7 @@ var boxApp = new Vue({
             }
             return satisfcation
         },
-        missing () {
+        missing() {
             var missing = false;
             for (const [name, state] of Object.entries(this.satisfaction)) {
                 if (state === false) {
@@ -199,7 +199,7 @@ var boxApp = new Vue({
 var superboxApp = new Vue({
     el: "#superboxPage",
     store: store,
-    beforeCreate() { this.$store.commit('initialiseStore');},
+    beforeCreate() { this.$store.commit('initialiseStore'); },
     data: {
         satisfiesMap: {
             drive: "Drive",
@@ -209,19 +209,19 @@ var superboxApp = new Vue({
         }
     },
     filters: {
-        join: function (value) {
-          if (!value) return ''
-          return value.join(', ')
+        join: function(value) {
+            if (!value) return ''
+            return value.join(', ')
         }
     },
     computed: {
-        items () {
+        items() {
             return this.$store.getters.items
         },
-        itemsCount () {
+        itemsCount() {
             return Object.keys(this.items).length;
         },
-        parts () {
+        parts() {
             var parts = {};
             for (const [name, item] of Object.entries(this.items)) {
                 for (part of item.parts) {
@@ -236,10 +236,10 @@ var superboxApp = new Vue({
             }
             return parts;
         },
-        satisfaction () {
+        satisfaction() {
             return this.$store.getters.satisfaction
         },
-        satisfactionList () {
+        satisfactionList() {
             var satisfcation = [];
             for (const [name, state] of Object.entries(this.satisfaction)) {
                 if (state === true) {
@@ -248,7 +248,7 @@ var superboxApp = new Vue({
             }
             return satisfcation
         },
-        missing () {
+        missing() {
             var missing = false;
             for (const [name, state] of Object.entries(this.satisfaction)) {
                 if (state === false) {
@@ -268,29 +268,50 @@ var superboxApp = new Vue({
 var boxLink = new Vue({
     el: '#boxLink',
     store: store,
-    beforeCreate() { this.$store.commit('initialiseStore');},
+    beforeCreate() { this.$store.commit('initialiseStore'); },
     computed: {
-        itemsCount () {
+        itemsCount() {
             return this.$store.getters.itemsCount
         }
     }
 });
 
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
+Vue.component('email-button', {
+    props: ["seconds"],
+    template: '#email-button-template',
+    data: function () {
+        return {
+            clicked: false,
+            loading: false,
+            loaded: false,
+            first_name: "pawel",
+            last_name: "kucmus",
+            href: "",
+            seconds_left: 99,
+        }
+    },
+    methods: {
+        async load() {
+            let seconds = parseInt(this.seconds);
+            this.seconds_left = seconds;
+            this.loading = true;
+            this.clicked = true;
+            for (let i=0; i < seconds; i++) {
+                await delay(1000);
+                this.seconds_left = this.seconds_left - 1;
+            }
+            this.loading = false;
+            this.loaded = true;
+            this.href = "mailto:" + this.first_name[0] + this.last_name + "@gmail.com"
+        }
+    }
+});
 
 Vue.component('add-bom-button', {
     props: ['name'],
-    template: ```
-      <a 
-        class="md-button md-button--primary add-to-box"
-        v-bind:class="{ 'in-the-box': inBox }"
-        v-on:click="add()"
-        >
-        {{ inBox ? 'In the box' : 'Add to box' }}
-            <span class="twemoji">
-            {% include ".icons/fontawesome/solid/box-open.svg" %}
-            </span>
-        </a>
-    ```,
+    template: "#add-to-box-template",
     beforeCreate() { this.$store.commit('initialiseStore');},
     computed: {
         inBox () {
@@ -324,10 +345,15 @@ var addonPage = new Vue({
     store: store,
 });
 
-docReady(function () {
+
+var page = new Vue({
+    el: '#Page',
+});
+
+docReady(function() {
     window.CI360.init();
     var tables = document.querySelectorAll("article table");
-    tables.forEach(function (table) {
+    tables.forEach(function(table) {
         new Tablesort(table);
     })
 });

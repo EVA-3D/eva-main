@@ -1,25 +1,24 @@
-/* 
-[data-md-color-primary="eva"] {
+/* [data-md-color-primary="eva"] {
     --md-primary-fg-color: #F88701;
     --md-primary-fg-color--light: #f3ad57;
     --md-primary-fg-color--dark: #b96906;
     --md-primary-bg-color: white;
     --md-primary-bg-color--light: #ffffffb3;
+    --md-default-bg-color: #333333;
 } */
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 200; 
+  /* --md-default-bg-color: #424242; */
+}
 
 h2 {
     clear: left;
 }
 
 .md-header {
-    background: rgb(76,174,79);
-    background: linear-gradient(
-        65deg,
-        var(--md-primary-fg-color) 0%,
-        var(--md-primary-fg-color) 30%,
-        rgba(101,105,101,1) 30.05%,
-        rgba(101,105,101,1) 100%
-    );
+    background: #6ae100;
+    background: linear-gradient( 65deg, #6ae100 0%, #6ae100 30%, rgba(101, 105, 101, 1) 30.05%, rgba(101, 105, 101, 1) 100%);
 }
 
 .md-content__inner {
@@ -29,9 +28,11 @@ h2 {
 .md-content__inner> :last-child {
     margin-bottom: 1rem;
 }
+
 .md-content__inner> :last-child img:not(.twemoji) {
     margin-bottom: -1.4rem;
 }
+
 
 /* .md-header-nav__ellipsis {
     width: 100px !important;
@@ -56,7 +57,7 @@ h2 {
     border-radius: 20px !important;
 }
 
-.github-user-badge:hover{
+.github-user-badge:hover {
     background-color: var(--md-accent-fg-color);
 }
 
@@ -87,6 +88,7 @@ h2 {
     /* width: 2.7rem; */
     max-width: 11.7rem;
 }
+
 .md-box__icon {
     display: inline-block;
     width: 2rem;
@@ -95,6 +97,7 @@ h2 {
     margin: .2rem;
     padding: .4rem;
 }
+
 .md-box__items {
     position: absolute;
     background-color: var(--md-accent-fg-color);
@@ -111,9 +114,9 @@ h2 {
 }
 
 @media screen and (min-width: 76.25em) {
-.md-header__source {
-    margin-left: 0;
-}
+    .md-header__source {
+        margin-left: 0;
+    }
 }
 
 .add-to-box {
@@ -138,4 +141,14 @@ details img {
 
 .remove {
     cursor: pointer;
+}
+
+.queen {
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.queen img {
+    max-width: 100%;
 }

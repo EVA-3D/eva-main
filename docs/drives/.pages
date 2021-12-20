@@ -1,10 +1,13 @@
 collapse_single_pages: true
 nav:
+    - lgx_lite
+    - sherpa_mini
+    - orbiter_1_5
     - lgx
-    - orbiter
     - bmg
+    - bmg-m
     - titan
-    - hemera
     - bowden
     - ...
-    - aero
+    - hemera
+    - aero.md

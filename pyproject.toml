@@ -1,21 +1,23 @@
 [tool.poetry]
 name = "eva-2"
-version = "2.0.0"
+version = "2.4.0"
 description = ""
 authors = ["Paweł Kucmus <pkucmus@gmail.com>"]
 license = "GPL-3.0-or-later"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 mkdocs-minify-plugin = "^0.3.0"
 mkdocs-redirects = "^1.0.1"
 mkdocs-macros-plugin = "^0.4.20"
 mkdocs-awesome-pages-plugin = "^2.4.0"
 mkdocs-exclude = "^1.0.2"
-mkdocs-material = "^7.0.4"
+mkdocs-material = "^8.1.2"
 pydantic = "^1.8.1"
-python-slugify = "^4.0.1"
+python-slugify = "^5"
 msgpack = "^1.0.2"
+tqdm = "^4.62.3"
+sqlmodel = "^0.0.4"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"

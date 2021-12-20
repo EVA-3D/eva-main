@@ -1,68 +1,33 @@
 ---
 title: LGX
+icon: material/cog
 uid: EVA / LGX
 type: drive
+spec: 2.4.0
 badges:
-    - Official
+    - official
 contributors: 
     - pkucmus
-repo_url: https://github.com/EVA-3D/eva-lgx
 cad_url: https://cad.onshape.com/documents/d2a2f19b34851a8570487add/w/1ff9bb9662c715a9cdc3d984/e/f74cb56cf915933a84ff4023
 satisfies:
     - drive
-boms:
-    - id: LGX.MGN12
-      source: ./bom/LGX.MGN12.csv
-      namespace: drives
-    - id: LGX.MGN15
-      source: ./bom/LGX.MGN15.csv
-      namespace: drives
+usage: 0.341
 ---
 
-# LGX
+{% extends 'drives.md' %}
 
-![preview](assets/LGX.png)
+{% block description %}
+
+Read about the LGX® Large Gears eXtruder here: https://www.bondtech.se/product/lgx-large-gears-extruder/
+
+{{ super() }}
 
 !!! info "Universal EVA Front"
 
-    This drive uses the universal face, which means it's comatible with all hotends you can find in the Hotends section.
+    This drive uses the universal face, which means it's compatible with all hotends you can find in the Hotends section.
 
 ??? Question "What about LGX For Flexibles Set?"
 
-    I'm working on it :)
+    The decision was made, I don't want the front heavy - so called compact - extruders on EVA. Those do not fit EVA.
 
-### Bill of materials
-
-
-=== "MGN12"
-
-    <add-bom-button name="{{ meta.uid }} (MGN12)">
-        {{ get_bom("LGX.MGN12").json()|b64encode }}
-    </add-bom-button>
-    
-    {{ get_bom("LGX.MGN12").md_table(4) }}
-
-
-=== "MGN15"
-
-    <add-bom-button name="{{ meta.uid }} (MGN15)">
-        {{ get_bom("LGX.MGN15").json()|b64encode }}
-    </add-bom-button>
-    
-    {{ get_bom("LGX.MGN15").md_table(4) }}
-
-
-
-#### PTFE Tube lenghts
-
-| Hotend | Length |
-| ------ | ------ |
-| Mosquito | 30.4 mm |
-| E3D V6 | 46.9 mm |
-| Dragon | 31.9 mm |
-| Copperhead | 45.9 mm |
-
-### Links
-
-{{ download_button }}
-{{ cad_link }}
+{% endblock description %}

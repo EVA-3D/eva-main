@@ -4,16 +4,15 @@ site_author: "Paweł Kucmus"
 site_description: "EVA 2 - 3D printer carriage platform"
 edit_uri: ""
 
-copyright: Copyright &copy; 2020 Paweł Kucmus
+copyright: Copyright &copy; 2021 Paweł Kucmus
 
 repo_name: EVA-3D / eva-main
 repo_url: https://github.com/EVA-3D/eva-main
-version: 2.3.0
 
-vendors:
-  - name: Rat Rig
-    mapping_file: vendors/mappings/ratrig.csv
-    out_file: vendors/superboms/ratrig.csv
+# vendors:
+#   - name: Rat Rig
+#     mapping_file: vendors/mappings/ratrig.csv
+#     out_file: vendors/superboms/ratrig.csv
 
 theme:
   logo: assets/logo_white_outline.svg
@@ -29,7 +28,8 @@ theme:
     # - navigation.instant
     # - navigation.sections
     # - navigation.top
-    - navigation.expand
+    # - navigation.expand
+    - navigation.tracking
     - search.suggest
     - search.highlight
 
@@ -38,7 +38,8 @@ plugins:
   - minify:
       minify_html: true
   - awesome-pages
-  - eva-3d-plugin
+  - eva-3d-plugin:
+      version: 2.4.0
   - exclude:
       glob:
         - "*.zip"
@@ -49,8 +50,8 @@ extra_css:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js
   - https://unpkg.com/vuex@2.0.0
-  # - https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js
-  - https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js
+  - https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js
+  # - https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js
   - https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.4.1/js-cloudimage-360-view.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - js/extra.js

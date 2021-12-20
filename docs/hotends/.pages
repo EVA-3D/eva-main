@@ -1,1 +1,10 @@
 collapse_single_pages: true
+nav:
+    - nova
+    - rapido
+    - bmo
+    - mosquito
+    - copperhead
+    - dragon
+    - ...
+    - v6
