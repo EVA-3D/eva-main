@@ -18,7 +18,9 @@ usage: 0.161
 
 {% block description %}
 
-Read about the LGX® Lite Extruder here: https://www.bondtech.se/product/lgx-lite-extruder-custom/
+Sherpa Mini extruder is an extruder Developed by Annex Engineering, you can find more about it [:material-github: here](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder).
+
+Sherpa Mini works best with EVA with the ["K" part](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder/blob/master/STLs/FDM_STLs/optional_parts/%5Ba%5D_housing_front_k_x1_rev5.STL). Also the mounting from the back might be "controversial" but that was the most optimal solution I could figure out to save X space (having IDEX in mind).
 
 {{ super() }}
 

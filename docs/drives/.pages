@@ -2,6 +2,7 @@ collapse_single_pages: true
 nav:
     - lgx_lite
     - sherpa_mini
+    - orbiter_2_0
     - orbiter_1_5
     - lgx
     - bmg

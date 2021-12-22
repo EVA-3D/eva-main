@@ -10,7 +10,7 @@ Where we distinguish the universal front that can carry different hotends or com
 ![](assets/[Face]%20Universal.png)
 
 ## Face
-Components that provide mounting for difeerent hotends on the universal front, there are also **face support** parts that provide additional mounting points for extra hotend stiffness and redirect air from the hotend fan away from the print 
+Components that provide mounting for diferent hotends on the universal front, there are also **face support** parts that provide additional mounting points for extra hotend stiffness and redirect air from the hotend fan away from the print 
 
 ![](assets/[Face]%20Mosquito.png)
 

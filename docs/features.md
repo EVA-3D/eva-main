@@ -16,7 +16,7 @@ title: Features and Roadmap
 - [x] Rapido Hotend support
 - [x] LGX Lite support
 - [x] Sherpa Extruder Support
-- [x] Additional Cooling
+- [x] Additional/improved Cooling (TriHorn Duct)
 
 ### EVA 2.3.0
 
