@@ -9,11 +9,6 @@ copyright: Copyright &copy; 2021 Paweł Kucmus
 repo_name: EVA-3D / eva-main
 repo_url: https://github.com/EVA-3D/eva-main
 
-# vendors:
-#   - name: Rat Rig
-#     mapping_file: vendors/mappings/ratrig.csv
-#     out_file: vendors/superboms/ratrig.csv
-
 theme:
   logo: assets/logo_white_outline.svg
   favicon: assets/logo_white_outline.svg
@@ -39,7 +34,7 @@ plugins:
       minify_html: true
   - awesome-pages
   - eva-3d-plugin:
-      version: 2.4.0
+      version: 2.4.1
   - exclude:
       glob:
         - "*.zip"
@@ -50,8 +45,8 @@ extra_css:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.js
   - https://unpkg.com/vuex@2.0.0
-  - https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js
-  # - https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js
+  # - https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js
+  - https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js
   - https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.4.1/js-cloudimage-360-view.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - js/extra.js

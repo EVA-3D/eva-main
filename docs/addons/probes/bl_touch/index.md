@@ -17,7 +17,7 @@ satisfies:
 
 
 {% block description %}
-super()
+{{super()}}
 
 The BOM will define a sum of the part for both variants, you only need one printed part and one BL-touch.
 {% endblock description %}

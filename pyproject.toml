@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "eva-2"
-version = "2.4.0"
+version = "2.4.1"
 description = ""
 authors = ["Paweł Kucmus <pkucmus@gmail.com>"]
 license = "GPL-3.0-or-later"
@@ -16,8 +16,6 @@ mkdocs-material = "^8.1.2"
 pydantic = "^1.8.1"
 python-slugify = "^5"
 msgpack = "^1.0.2"
-tqdm = "^4.62.3"
-sqlmodel = "^0.0.4"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"

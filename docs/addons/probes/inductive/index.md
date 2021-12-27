@@ -16,7 +16,7 @@ satisfies:
 {% extends 'addons.md' %}
 
 {% block description %}
-super()
+{{super()}}
 
 The BOM will define a sum of the part for all variants, you only need one printed part and one probe.
 {% endblock description %}
