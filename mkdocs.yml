@@ -4,7 +4,7 @@ site_author: "Paweł Kucmus"
 site_description: "EVA 2 - 3D printer carriage platform"
 edit_uri: ""
 
-copyright: Copyright &copy; 2021 Paweł Kucmus
+copyright: Copyright &copy; 2022 Paweł Kucmus
 
 repo_name: EVA-3D / eva-main
 repo_url: https://github.com/EVA-3D/eva-main
@@ -34,7 +34,7 @@ plugins:
       minify_html: true
   - awesome-pages
   - eva-3d-plugin:
-      version: 2.4.1
+      version: 2.4.2
   - exclude:
       glob:
         - "*.zip"
