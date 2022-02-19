@@ -16,6 +16,7 @@ mkdocs-material = "^8.2.1"
 pydantic = "^1.8.1"
 python-slugify = "^5"
 msgpack = "^1.0.2"
+markupsafe = "2.0.1"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.19.0"
