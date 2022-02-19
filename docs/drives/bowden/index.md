@@ -8,7 +8,9 @@ badges:
     - official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/f36b4d773104fcd6926a6641
+onshape: 
+    uid: EVA / Bowden
+    cad_url: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/f36b4d773104fcd6926a6641
 satisfies:
     - drive
 usage: 0.0

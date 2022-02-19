@@ -8,13 +8,15 @@ badges:
     - Official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/52f0563de542ba3ab4bd6276
+onshape: 
+    uid: EVA / Addons / Layer Cooling
+    cad_url: https://cad.onshape.com/documents/1765b04fac582f6c1c470bd3/w/1cc31596374d6ce51cd23fa9/e/52f0563de542ba3ab4bd6276
 satisfies:
 ---
 
 # {{ meta.title }}
 
-![preview](assets/{{meta.uid|safe_filename}}.png)
+![preview](assets/{{eva.uid|slugify}}.png)
 
 ## Description
 

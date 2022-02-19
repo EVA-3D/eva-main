@@ -3,15 +3,15 @@
 {% block header %}
 {% endblock header %}
 
-![preview](assets/{{meta.uid|safe_filename}}.png)
+![preview](assets/{{eva.uid|slugify}}.png)
 
 ## Description
 
 {% block description %}
-- used by: {{ meta.percentage }} (based on 2021-11 survey)
-- EVA spec: {{ meta.spec }}
-- authors: {% for contributor in meta.contributors %}[{{contributor}}](https://github.com/{{contributor}}){% endfor %}
-{% for badge in meta.badges %}- {{badge}}
+- used by: {{ eva.percentage }} (based on 2021-11 survey)
+- EVA spec: {{ eva.spec }}
+- authors: {% for contributor in eva.contributors %}[{{contributor}}](https://github.com/{{contributor}}){% endfor %}
+{% for badge in eva.badges %}- {{badge}}
 {% endfor %}
 {% endblock description %}
 

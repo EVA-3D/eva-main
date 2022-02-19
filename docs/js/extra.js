@@ -304,7 +304,7 @@ Vue.component('email-button', {
             }
             this.loading = false;
             this.loaded = true;
-            this.href = "mailto:" + this.first_name[0] + this.last_name + "@gmail.com"
+            this.href = "mailto:" + this.first_name[0] + this.last_name + "+eva@gmail.com"
         }
     }
 });

@@ -8,7 +8,9 @@ badges:
     - Official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/a2d21b0faa4745fa21bc844e/w/d7f14dfeeee2e68fe2f1149b/e/b95143b36c9a9de2e7f05e9e
+onshape: 
+    uid: EVA / Addons / IDEX X1
+    cad_url: https://cad.onshape.com/documents/a2d21b0faa4745fa21bc844e/w/d7f14dfeeee2e68fe2f1149b/e/b95143b36c9a9de2e7f05e9e
 satisfies:
 ---
 

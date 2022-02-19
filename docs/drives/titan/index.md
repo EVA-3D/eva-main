@@ -8,7 +8,9 @@ badges:
     - official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/bb6db4fbcd7c5ec5350427f0/w/8da16df4512074fe4659384c/e/d0fc464a4453631a662f183c
+onshape: 
+    uid: EVA / Titan
+    cad_url: https://cad.onshape.com/documents/bb6db4fbcd7c5ec5350427f0/w/8da16df4512074fe4659384c/e/d0fc464a4453631a662f183c
 satisfies:
     - drive
 usage: 0.013

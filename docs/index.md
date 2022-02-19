@@ -62,7 +62,7 @@ For Rat Rig V-core Pro the [Easy Mod](https://github.com/pkucmus/Easy-Mod) is re
 EVA is now officially used by Rat Rig in their products :tada: :
 
 * [V-Core 3](https://v-core3.ratrig.com/)
-* V-Minion - comming soon!
+* [V-Minion](https://v-minion.ratrig.com/)
 * [V-core Pro (with Easy Mod)](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html)
 * [V-cast](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-cast.html)
 
@@ -70,4 +70,8 @@ EVA is now officially used by Rat Rig in their products :tada: :
 
 If you need a more direct contact I'm (`McAbra#1650`) on the [Rat Rig Unofficial Discord Server](https://discord.gg/DcCEk8u) along with many awesome people that will surely help :smile:
 
-<email-button seconds="5"/>
+??? info "e-mail"
+
+    Here is my email **but please be advised** if you seek support I am unable to provide it via email. Support questions should be asked in Discord.
+
+    <email-button seconds="15"/>

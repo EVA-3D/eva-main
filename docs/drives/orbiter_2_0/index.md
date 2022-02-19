@@ -8,7 +8,9 @@ badges:
     - official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/bb8303124bc8370b6d1924bc/w/8276a22c579374e8b02e9b96/e/52beb4802d84bad056eb7d9f
+onshape: 
+    uid: EVA / Orbiter 2.0
+    cad_url: https://cad.onshape.com/documents/bb8303124bc8370b6d1924bc/w/8276a22c579374e8b02e9b96/e/52beb4802d84bad056eb7d9f
 satisfies:
     - drive
 usage: 0.522

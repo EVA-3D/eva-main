@@ -8,7 +8,9 @@ badges:
     - Official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/d24027dd78e7164add26b5f5/w/0615251dcae8664926ca1aa2/e/e9eed9bdfd490146ec0aa205
+onshape: 
+    uid: EVA / Addons / Openbuilds
+    cad_url: https://cad.onshape.com/documents/d24027dd78e7164add26b5f5/w/0615251dcae8664926ca1aa2/e/e9eed9bdfd490146ec0aa205
 satisfies:
     - endstop
 ---

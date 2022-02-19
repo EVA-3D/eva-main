@@ -8,7 +8,9 @@ badges:
     - official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/371450c83b99fdd5844f4b0c/w/6283a21a1cfe91323a72f862/e/1fc412a1de950c20053d2aaa
+onshape: 
+    uid: EVA / Hemera
+    cad_url: https://cad.onshape.com/documents/371450c83b99fdd5844f4b0c/w/6283a21a1cfe91323a72f862/e/1fc412a1de950c20053d2aaa
 satisfies:
     - drive
 usage: 0.052

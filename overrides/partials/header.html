@@ -23,11 +23,7 @@
                 </div>
                 <div class="md-header__topic" data-md-component="header-topic">
                     <span class="md-ellipsis">
-            {% if page and page.eva and page.eva.title %}
-              {{ page.eva.title }}
-            {% else %}
               {{ page.title }}
-            {% endif %}
           </span>
                 </div>
             </div>
@@ -76,17 +72,6 @@
 
         <!-- Search interface -->
         {% include "partials/search.html" %} {% endif %}
-
-        <!-- <a href="/box" id="boxLink" class="md-box">
-            <div class="md-header__box">
-                <div class="md-box__icon md-icon">
-                    {% include ".icons/fontawesome/solid/truck-loading.svg" %}
-                    <div class="md-box__items">
-                        {% raw %}{{itemsCount}}{% endraw %}
-                    </div>
-                </div>
-            </div>
-        </a> -->
 
         <!-- Repository information -->
         {% if config.repo_url %}

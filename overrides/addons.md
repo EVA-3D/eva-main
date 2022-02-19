@@ -3,13 +3,13 @@
 {% block header %}
 {% endblock header %}
 
-![preview](assets/{{meta.uid|safe_filename}}.png)
+![preview](assets/{{eva.uid|slugify}}.png)
 
 ## Description
 
 {% block description %}
-- authors: {% for contributor in meta.contributors %}[{{contributor}}](https://github.com/{{contributor}}){% endfor %}
-{% for badge in meta.badges %}- {{badge}}
+- authors: {% for contributor in eva.contributors %}[{{contributor}}](https://github.com/{{contributor}}){% endfor %}
+{% for badge in eva.badges %}- {{badge}}
 {% endfor %}
 {% endblock description %}
 

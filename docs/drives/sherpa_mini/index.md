@@ -8,7 +8,9 @@ badges:
     - official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/faf4a53a25c3b788e478203f/w/13643fbd02f4c673d9ddcb4f/e/b847abd8bc1a14592e0f40ea
+onshape: 
+    uid: EVA / Sherpa Mini
+    cad_url: https://cad.onshape.com/documents/faf4a53a25c3b788e478203f/w/13643fbd02f4c673d9ddcb4f/e/b847abd8bc1a14592e0f40ea
 satisfies:
     - drive
 usage: 0.161

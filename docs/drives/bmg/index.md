@@ -8,7 +8,9 @@ badges:
     - official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/8669b75b86d079defa27c647/w/c7d4d8da0ad3b529c7c85328/e/e23dd2f45ad2e8d07def9191
+onshape: 
+    uid: EVA / BMG
+    cad_url: https://cad.onshape.com/documents/8669b75b86d079defa27c647/w/c7d4d8da0ad3b529c7c85328/e/e23dd2f45ad2e8d07def9191
 satisfies:
     - drive
 usage: 0.213

@@ -8,7 +8,9 @@ badges:
     - Official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/51ec5a95e190d928dabcea10/w/94576604d1279f8314466d44/e/02d805ddbc6466248e0837f4
+onshape: 
+    uid: EVA / BMO
+    cad_url: https://cad.onshape.com/documents/51ec5a95e190d928dabcea10/w/94576604d1279f8314466d44/e/02d805ddbc6466248e0837f4
 satisfies:
     - hotend
 usage: 0.043

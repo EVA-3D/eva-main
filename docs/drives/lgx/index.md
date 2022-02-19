@@ -8,7 +8,9 @@ badges:
     - official
 contributors: 
     - pkucmus
-cad_url: https://cad.onshape.com/documents/d2a2f19b34851a8570487add/w/1ff9bb9662c715a9cdc3d984/e/f74cb56cf915933a84ff4023
+onshape: 
+    uid: EVA / LGX
+    cad_url: https://cad.onshape.com/documents/d2a2f19b34851a8570487add/w/1ff9bb9662c715a9cdc3d984/e/f74cb56cf915933a84ff4023
 satisfies:
     - drive
 usage: 0.341
