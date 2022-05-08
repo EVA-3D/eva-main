@@ -5,6 +5,14 @@ hide:
 
 # EVA
 
+!!! warning "Release Candidate"
+
+    EVA 3.0 is in a release candidate state, meaning it might be unstable - consider yourself an erly adopter :)
+
+    It's tested a lot at this point but since there were so many changes done to it it's only fair to say that it's not released as a stable release (even if the act of stabilization will only mean fixing this documentation).
+
+    Please have patience with it and remember that you will likely need longer belts on your V-Core 3 for EVA 3.0 to work on it.
+
 ![](assets/EVA_MAIN.png)
 
 > `EH-v uh` *(/ˈɛ.va/)* - like in p<b>E</b>t, <b>V</b>ery, <b>U</b>p 
