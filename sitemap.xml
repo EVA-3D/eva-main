@@ -2,172 +2,202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://main.eva-3d.page/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/features/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/FAQ/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/parts_explained/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/ecosystem/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/printing/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/getting_started/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/queen/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/core/cartesian/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/step_files/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/core/corexy/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/cartesian_idex/cartesian/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/core/cartesian/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/cartesian_idex/idex_x1/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/core/corexy/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/cartesian_idex/idex_x2/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/hotend/bmo/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/layer_cooling/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/hotend/mosquito/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/probes/bl_touch/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/hotend/nova/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/probes/inductive/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/hotend/rapido/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/shrouds/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/hotend/bmo/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/x_endstop/angled/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/hotend/mosquito/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/x_endstop/openbuilds/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/hotend/nova/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/addons/x_endstop/sensorless/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/hotend/rapido/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/aero/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/drive/bmg/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/bmg/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/drive/lgx/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/bmg-m/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/drive/lgx_lite/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/bowden/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/drive/orbiter_1_5/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/hemera/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/drive/orbiter_2_0/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/lgx/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/drive/bmg/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/lgx_lite/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/drive/lgx/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/orbiter_1_5/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/drive/lgx_lite/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/orbiter_2_0/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/drive/orbiter_1_5/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/sherpa_mini/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/drive/orbiter_2_0/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/drives/titan/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/cooling_inlet/40mm/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/hotends/bmo/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/cooling_inlet/dual_5015/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/hotends/copperhead/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/cooling_inlet/single_5015/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/hotends/dragon/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/cooling_inlet/40mm/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/hotends/mosquito/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/cooling_inlet/dual_5015/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/hotends/nova/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/hex_nuts/cooling_inlet/single_5015/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/hotends/rapido/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/probes/8mm_probe/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://main.eva-3d.page/hotends/v6/</loc>
-         <lastmod>2022-02-19</lastmod>
+         <loc>https://main.eva-3d.page/heat_insert/probes/bl_touch/</loc>
+         <lastmod>2022-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://main.eva-3d.page/hex_nuts/probes/8mm_probe/</loc>
+         <lastmod>2022-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://main.eva-3d.page/hex_nuts/probes/bl_touch/</loc>
+         <lastmod>2022-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://main.eva-3d.page/heat_insert/cable_management/guide/</loc>
+         <lastmod>2022-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://main.eva-3d.page/hex_nuts/cable_management/guide/</loc>
+         <lastmod>2022-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://main.eva-3d.page/heat_insert/extra_ducts/bottom/</loc>
+         <lastmod>2022-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://main.eva-3d.page/hex_nuts/extra_ducts/bottom/</loc>
+         <lastmod>2022-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
