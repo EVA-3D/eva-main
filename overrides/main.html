@@ -16,55 +16,9 @@
 <meta property="og:image:height" content="761">
 {% endblock %}
 
-{% block content %}
-
-<div id="{{page.type}}Page">
-    {{ super() }}
-</div>
-{% endblock content %}
-
 
 {% block scripts %}
 <script>window.CI360 = { notInitOnLoad: true }</script>
-<script>const docsVersion = "{{ config.version }}";</script>
-
-<script type="text/x-template" id="email-button-template">
-    <div>
-        <a class="md-button md-button--primary add-to-box" v-on:click="load()" v-if="!clicked">
-            Click here for email
-            <span class="twemoji">
-                {% include ".icons/material/email-lock.svg" %}
-            </span>
-        </a>
-        <a class="md-button add-to-box" v-if="loading">
-            Loading... ({% raw %}{{ seconds_left }}{% endraw %})
-            <span class="twemoji">
-                {% include ".icons/material/email-sync.svg" %}
-            </span>
-        </a>
-        <a class="md-button md-button--primary add-to-box" v-if="loaded" v-bind:href="href">
-            {% raw %}{{ first_name[0] }}{{ last_name }}@gmail.com{% endraw %}
-            <span class="twemoji">
-                {% include ".icons/material/email-check.svg" %}
-            </span>
-        </a>
-    </div>
-</script>
-<script type="text/x-template" id="add-to-box-template">{% raw %}
-  <a 
-  class="md-button md-button--primary add-to-box"
-  v-bind:class="{ 'in-the-box': inBox }"
-  v-on:click="add()"
-  >
-  {{ inBox ? 'In the box' : 'Add to box' }}{% endraw %}
-    <span class="twemoji">
-      {% include ".icons/fontawesome/solid/box-open.svg" %}
-    </span>
-  </a>
-</script>
-
-
-
 
 {{ super() }}
 

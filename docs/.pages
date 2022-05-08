@@ -1,12 +1,6 @@
 nav:
     - index.md
-    - features.md
-    - parts_explained.md
-    - printing.md
-    - hotends
-    - drives
-    - addons
+    - getting_started.md
     - ...
-    - step_files.md
-    - Community Contributions: https://contrib.eva-3d.page
-    - queen.md
+    - ecosystem.md
+    - FAQ.md

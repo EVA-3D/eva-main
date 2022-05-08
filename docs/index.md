@@ -1,77 +1,53 @@
 ---
-title: Introduction
+hide:
+  - navigation
 ---
-# EVA <sub><sup>{{ config.version }}</sup></sub>
 
-<iframe id="player" type="text/html" width="800" height="480"
-  src="https://www.youtube.com/embed/fOFlQ7dKGFQ?enablejsapi=1&origin=https://eva-3d.github.io/eva-main/"
-  frameborder="0"></iframe>
+# EVA
 
-## Platform
+![](assets/EVA_MAIN.png)
 
-EVA is a carriage platform for MGN rail based printers. The main goal is to support what people may have laying around or have easy access to. EVA is trying to implement that goal.
+> `EH-v uh` *(/ˈɛ.va/)* - like in p<b>E</b>t, <b>V</b>ery, <b>U</b>p 
 
-The specification is described in a separate [EVA / Spec](https://github.com/EVA-3D/eva-spec) document.
+EVA is a 3D printing carriage **platform** revolving around accesibility - the goal is to give the power of choice to the users by enabling as many options for carriage hardware as possible. The "platform" part means a few things, for one EVA is a specification - a 3D printer can be EVA compatible (not the other way around - EVA is not to be compatible with a printer) thus automatically accuiring all the hardware compatibility EVA brings and will bring in it's future versions. New versions appear with compatibility for new hardware. Aside from being a spec, EVA also comes with a set of parts ready to use on compatible printers.
 
-## Download
+EVA is developed by me - [Paweł Kucmus](https://github.com/pkucmus) and the fantastic EVA and Rat Rig community.
 
-The whole package can be downloaded as a ZIP package, otherwise you can navigate to the the specific drive, hotend or addon page and download files from there.
+## Getting started
 
-[Download :octicons-download-24:](https://github.com/EVA-3D/eva-main/blob/main/stls.zip?raw=true){: .md-button .md-button--primary }
+Navigate to the [Getting Started](/getting_started) page to learn where to start. If you know your way around this place already and just looking for a download link you will find it below. Either way please read further down to learn about the people behind EVA.
 
-## Support
+## Updates
 
-Big thanks to the users - one example is that only thanks to your donations the Mosquito parts were possible.
+Best way to see what is new is to attend the live streams on [YouTube](https://www.youtube.com/channel/UCkbho7PSaXQlU6l5Vt3wfKA).
 
-If you want to support the project or just buy me coffee you can [:fontawesome-brands-paypal: Paypal.me](https://www.paypal.me/pkucmus).
+## Support and attributions
 
-In a huge part the project exists thatks to Rat Rig - they help me out with screws and nuts but also hotends and boards:
+### Rat Rig
 
-<p class="sponsors">
-    <a href="https://www.ratrig.com/" >
-        <img src="assets/ratrig.png" height="200"/>
-    </a>
-</p>
+My and EVA's relationship with Rat Rig should not be a suprise as I'm also responsible for V-Core 3, V-Minion and V-Core Pro 1.2 and up. 
+Rat Rig was and still is providing me with an amazing support in terms of hardware, guidance and emotional support :smile:
 
-Please go and buy something from them :smile:
+All of their printers are EVA compatible.
 
-### Issues
+### Other companies
 
-Issues, problems, feature requests, requests for compatibility with different printers can be requested in the project's [issue tracker](https://github.com/EVA-3D/eva-main/issues).
+The nature of EVA is specific in a way that I always did shy away from any free parts producers were willing to send me. If I got something for free it was immedietly sent to one of the beta testers. This is to prevent accusations towards the platform for being biased. 
 
-### Attributions
+**There is no way of purchasing a spot here.**
 
-One does not need a keen eye to see that this design is based on many different designs that are out in the wild - although all the parts here are made from scratch - their authors deserve credit (their work provided inspiration):
+That said if this will change and I'll start receiving parts it will not be a secret and I'll probably list those on one of the release lives on YouTube.
 
-* [Rat Rig](https://www.ratrig.com/) for making the V-core which is the perfect sandbox for building and modding a 3D Printer
-* [pekcitron](https://www.thingiverse.com/pekcitron/about) for the [Prusa Bear Upgrade](https://www.thingiverse.com/thing:2808408)
-* [BLV](https://www.blvprojects.com/) and his amazing [BLV mgn cube](https://www.blvprojects.com/blv-mgn-cube-3d-printer)
+### People
 
-The following people deserve special credit for their amazing work - making some of the parts, providing guidance, testing parts, keeping me in check. Their input was a huge help so please do me a favor and check out their work:
+**Mikkel Schmidt** and **Marc Marschall** constantly pushed for more improvements, took some of the work of my shoulders - big thank you. **Simon Davie** is helping out for as long as I can remember, printer compatibility would not ba as good if not for Simon's checks. 
 
-* [Olof Ogland](http://www.olofogland.se)
-* [Simon Davie](http://www.nexxdesign.co.uk)
-* [João Barros](http://www.joaobarros.pt)
+There's also a big group of people that helped out with beta testing, they had to go through a lot of work and plastic to test all the different iterations that I was producing when fixing more and more bugs - amazing bunch of people.
 
-THANK YOU!
+### Contact
 
-## Examples
+<a href="http://discord.gg/ratrig" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/discord/582187371529764864?color=%235865F2&label=discord&logo=discord&logoColor=white&style=for-the-badge" alt="discord"/>
+</a>
 
-For Rat Rig V-core Pro the [Easy Mod](https://github.com/pkucmus/Easy-Mod) is required to change the X and Y rail orientation.
-
-EVA is now officially used by Rat Rig in their products :tada: :
-
-* [V-Core 3](https://v-core3.ratrig.com/)
-* [V-Minion](https://v-minion.ratrig.com/)
-* [V-core Pro (with Easy Mod)](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html)
-* [V-cast](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-cast.html)
-
-## Contact
-
-If you need a more direct contact I'm (`McAbra#1650`) on the [Rat Rig Unofficial Discord Server](https://discord.gg/DcCEk8u) along with many awesome people that will surely help :smile:
-
-??? info "e-mail"
-
-    Here is my email **but please be advised** if you seek support I am unable to provide it via email. Support questions should be asked in Discord.
-
-    <email-button seconds="15"/>
+If you need a more direct contact I'm (McAbra#1650) on the Rat Rig Unofficial Discord Server along with many awesome people that will surely help 😄
