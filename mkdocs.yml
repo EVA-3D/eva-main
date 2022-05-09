@@ -133,8 +133,13 @@ plugins:
         heat_insert.extra_ducts.bottom: 
           title: Cooling ducts
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/4f0a80e4641c1fb364a8a3f6
-        
-        
+
+        hex_nuts.shrouds.all: 
+          title: Shrouds
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/6cd608f61ef46cb68c20cea4
+        heat_insert.shrouds.all: 
+          title: Shrouds
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/6cd608f61ef46cb68c20cea4
 
 theme:
   logo: assets/logo_white_outline.svg

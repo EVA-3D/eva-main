@@ -6,7 +6,7 @@ hide:
 
 # Getting started
 
-EVA might look intimidating at first but it's really not, sure the BOMs are complicated and you need to learn youself around all this but think about it like this:
+EVA might look intimidating at first but it's really not, sure the BOMs are complicated and you need to learn yourself around all this but think about it like this:
 
 ## Printer compatibility
 
@@ -14,11 +14,15 @@ Even thought EVA 3 is a major version jump from EVA 2 a lot a work was put to ac
 
 ### V-Core 3
 
-TODO
+The X endstop block needs to change - get taller, also **you will likely need longer belts** if you cut them short - close to the carriage.
+
+I'm working on it.
 
 ### V-Minion
 
 Almost there, sensorless homing should work, otherwise the X motor block on VM will need to be adjusted.
+
+I'm working on it.
 
 ### V-Core Pro >= 1.2
 
@@ -35,7 +39,7 @@ Not, depending on the demand and time I might port it but his will require some 
 Let's define the 4 main components as the Core, this would be:
 
 - `Top` - interface between the MGN12 and the rest of EVA
-- `Front` - universal inteface for hotend mounts
+- `Front` - universal interface for hotend mounts
 - `Bottom` - support piece integrated with an cooling duct option
 - `Back` - different backs are use for different motion systems
 
@@ -49,7 +53,7 @@ The component that goes on top of the `top` and `front` parts - specific to your
 
 ### Hotend
 
-Component wrapping the hotend around provied mounting for the hotend fan and interfaces with the `front` part.
+Component wrapping the hotend around provided mounting for the hotend fan and interfaces with the `front` part.
 
 ![](assets/GS_hotend.png)
 

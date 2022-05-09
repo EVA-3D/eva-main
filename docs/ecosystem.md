@@ -5,7 +5,7 @@ hide:
 
 # Ecosystem
 
-There are many projects that came from the same familiy as EVA. Check them out for the full experience :)
+There are many projects that came from the same family as EVA. Check them out for the full experience :)
 
 ## V-Core 3
 

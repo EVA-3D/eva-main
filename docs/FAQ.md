@@ -8,7 +8,7 @@ hide:
 
 # Frequently Asked Questions
 
-## How to pronouce EVA?
+## How to pronounce EVA?
 
 EVA is named after my wife Ewa (polish Eve) you read it like: `EH-v uh` *(/ˈɛ.va/)* - like in p<b>E</b>t, <b>V</b>ery, <b>U</b>p.
 
