@@ -18,22 +18,21 @@ from onshape.client import Onshape
 
 @click.group()
 @click.pass_context
-# @click.option(
-#     "--onshape-access-key", envvar="ONSHAPE_ACCESS", prompt=True, hide_input=True
-# )
-# @click.option(
-#     "--onshape-secret-key", envvar="ONSHAPE_SECRET", prompt=True, hide_input=True
-# )
-# def cli(ctx, onshape_access_key, onshape_secret_key):
-def cli(ctx):
+@click.option(
+    "--onshape-access-key", envvar="ONSHAPE_ACCESS", prompt=True, hide_input=True
+)
+@click.option(
+    "--onshape-secret-key", envvar="ONSHAPE_SECRET", prompt=True, hide_input=True
+)
+def cli(ctx, onshape_access_key, onshape_secret_key):
     mkdocs_config = config.load_config(site_dir="/tmp/eva-3d-unpack")
     ctx.obj = {}
     ctx.obj["mkdocs_config"] = mkdocs_config
     ctx.obj["project_dir"] = Path(mkdocs_config["docs_dir"]).parent.resolve()
     ctx.obj["eva_docs"] = mkdocs_config["plugins"]["eva-docs-plugin"]
     ctx.obj["onshape_credentials"] = {
-        "access_key": "M48ljFC1VUmEv986xjM2vHUK",
-        "secret_key": "4AT7d2XqHOAJLmAaiSeYeiug3XAQqyLy0Ksp7GxDJ7y48F1t",
+        "access_key": onshape_access_key,
+        "secret_key": onshape_secret_key,
     }
     create_db_and_tables()
 

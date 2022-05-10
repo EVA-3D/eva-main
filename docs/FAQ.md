@@ -18,6 +18,17 @@ Sure, I'm not much of a drinker though, I also only drink coffee at home. But if
 
 Sadly, there is no other way to sponsor EVA as platform like Patreon can't be used with the broken polish tax system... (rant redacted)
 
+## How can I contribute or make derivatives / remixes
+
+Remix this model on [printables.com](https://www.printables.com/model/200939-eva-3-modular-3d-printer-carriage-platform). 
+
+The rules are:
+
+1. follow the License - to name a few:
+      1. attribute
+      2. release under the same license
+2. do not remove any of the EVA logos from the parts
+
 ## What color scheme can be used?
 
 As long as it's not purple it's fine. As everyone knows black color is the strongest but green is the fastest EVA is black/green so we have the benefits of both ;)

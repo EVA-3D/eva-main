@@ -76,6 +76,8 @@ class Onshape:
                     query=query,
                     base_url=f"{url.scheme}://{url.netloc}",
                 )
+            elif resp.status >= 400:
+                raise Exception(await resp.read())
             else:
                 return await resp.read()
 

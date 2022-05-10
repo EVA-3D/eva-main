@@ -177,8 +177,12 @@ class EVAPlugin(BasePlugin):
                     )
                 )
             if item.is_printable:
+                url_parts = [self.config['stls_dir']]
+                url_parts.extend(item.bom_name.split("."))
+                url_parts.append(f"{item.name}.stl")
+                url = "/".join(url_parts)
                 rows.append(
-                    f"{indent_str}| {index + 1} | {item.quantity} | [{item.name}](/{self.config['stls_dir']}/{item.name}.stl) | {self.yes_no(item.is_printable)} |"
+                    f"{indent_str}| {index + 1} | {item.quantity} | [{item.name}](/{url}) | {self.yes_no(item.is_printable)} |"
                 )
             else:
                 rows.append(

@@ -12,7 +12,7 @@ from onshape.client import Onshape
 from onshape.schemas import BOMTable
 
 
-ONSHAPE_SEMAPHORE = asyncio.Semaphore(20)
+ONSHAPE_SEMAPHORE = asyncio.Semaphore(10)
 
 
 
@@ -75,6 +75,7 @@ def store_bom_tables(session, bom_tables: Dict[str, BOMTable]):
                 session.add(
                     DBBOMItem(
                         name=item.name,
+                        bom_name=bom_name,
                         material=item.material.upper(),
                         quantity=item.quantity,
                         bom_table=bom_table,
@@ -123,13 +124,30 @@ async def download_images(onshape_credentials, cad_links: Dict[str, str], image_
             image_file.write(b64decode(b64image))
 
 
+
+def process_stl_file(bom_name: str, stls_dir, name: str, progress):
+    def wrapped(future):
+        try:
+            result = future.result()
+        except BaseException as exc:
+            progress.console.print(f"[red] Error when pulling {bom_name}, file {name}: {exc}")
+            return
+        path_parts = bom_name.split(".")
+        stl_path = Path(stls_dir, *path_parts, f"{name}.stl").resolve()
+        stl_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(stl_path, "wb") as stl_file:
+            stl_file.write(result)
+    return wrapped
+
+
+
 async def download_stls(onshape_credentials, session, stls_dir: Path):
     progress = get_progress_bar("Pulling STLs")
     items = session.exec(select(DBBOMItem).where(DBBOMItem.material == "PETG")).all()
     async with Onshape(**onshape_credentials) as onshape:
         with progress:
             progress_task = progress.add_task("", total=len(items))
-            tasks = {}
+            tasks = []
             for item in items:
                 if item.is_printable:
                     task = asyncio.create_task(
@@ -145,16 +163,7 @@ async def download_stls(onshape_credentials, session, stls_dir: Path):
                         name=item.name
                     )
                     task.add_done_callback(advance_progress_bar_callback(progress, progress_task))
-                    tasks[item.name] = task
+                    task.add_done_callback(process_stl_file(item.bom_name, stls_dir, item.name, progress))
+                    tasks.append(task)
 
-            await asyncio.wait(tasks.values())
-
-    for name, task in tasks.items():
-        result = await task
-        stl_path = (
-            stls_dir
-            / f"{name}.stl"
-        ).resolve()
-        stl_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(stl_path, "wb") as stl_file:
-            stl_file.write(result)
+            await asyncio.gather(*tasks)
