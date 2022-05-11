@@ -5,6 +5,7 @@ eva:
   component: guide
   mounting: hex_nuts
   name: hex_nuts.cable_management.guide
+title: Simple guide
 
 ---
 

@@ -5,6 +5,7 @@ eva:
   component: bottom
   mounting: hex_nuts
   name: hex_nuts.extra_ducts.bottom
+title: Cooling ducts
 
 ---
 

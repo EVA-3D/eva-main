@@ -5,6 +5,7 @@ eva:
   component: bmg
   mounting: hex_nuts
   name: hex_nuts.drive.bmg
+title: BMG
 
 ---
 

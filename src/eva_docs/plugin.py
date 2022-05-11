@@ -69,7 +69,6 @@ class EVAPlugin(BasePlugin):
             return self.assemblies_order.get(path_parts[1], 99)
         return 0
 
-
     def on_files(self, files, config):
         component_files = get_files({
             "docs_dir": self.include_dir,
@@ -89,6 +88,7 @@ class EVAPlugin(BasePlugin):
 
             path = Path(dest_dir, *path_parts[:-1], f"{path_parts[-1]}.md")
             meta = {
+                "title": title,
                 "eva": {
                     "name": name,
                 },
@@ -107,6 +107,9 @@ class EVAPlugin(BasePlugin):
                 meta["eva"]["component"] = path_parts[2]
             except IndexError:
                 pass
+
+            if icon := data.get("icon"):
+                meta["icon"] = icon
     
             template_path = self.project_dir / data.get(
                 "template_path", "overrides/component_template.md"

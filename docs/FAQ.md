@@ -29,6 +29,10 @@ The rules are:
       2. release under the same license
 2. do not remove any of the EVA logos from the parts
 
+## Contributions? Where to put them?
+
+Here: [printables.com](https://www.printables.com/model/200939-eva-3-modular-3d-printer-carriage-platform/remixes) I'm thinking about something like the old contrib page that would require less maintenance.
+
 ## What color scheme can be used?
 
 As long as it's not purple it's fine. As everyone knows black color is the strongest but green is the fastest EVA is black/green so we have the benefits of both ;)
@@ -44,3 +48,9 @@ I don't remember.
 ## No, seriously why?
 
 I don't want to talk about it :}
+
+## Dragon support? Clones in general?
+
+No, for my own reasons EVA 3 will not support the Dragon hotend officially and the only entity that can change that is the company that is producing it. This is not about the other company or patents that work worldwide or not - this is about my rules that I want to follow (this time).
+
+Same goes for clones, those are important for beginners but again - I would not feel OK supporting those.

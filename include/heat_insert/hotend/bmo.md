@@ -5,6 +5,7 @@ eva:
   component: bmo
   mounting: heat_insert
   name: heat_insert.hotend.bmo
+title: BMO
 
 ---
 

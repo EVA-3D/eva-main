@@ -5,6 +5,7 @@ eva:
   component: bmo
   mounting: hex_nuts
   name: hex_nuts.hotend.bmo
+title: BMO
 
 ---
 

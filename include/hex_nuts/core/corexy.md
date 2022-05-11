@@ -5,6 +5,7 @@ eva:
   component: corexy
   mounting: hex_nuts
   name: hex_nuts.core.corexy
+title: CoreXY
 
 ---
 

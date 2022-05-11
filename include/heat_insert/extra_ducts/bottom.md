@@ -5,6 +5,7 @@ eva:
   component: bottom
   mounting: heat_insert
   name: heat_insert.extra_ducts.bottom
+title: Cooling ducts
 
 ---
 

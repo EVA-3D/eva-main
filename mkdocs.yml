@@ -8,6 +8,8 @@ copyright: Copyright &copy; 2022 Paweł Kucmus
 
 repo_name: EVA-3D / eva-main
 repo_url: https://github.com/EVA-3D/eva-main
+edit_uri: ""
+
 
 plugins:
   - search
@@ -19,6 +21,14 @@ plugins:
       stls_dir: stls
       onshape_assets_dir: onshape_assets
       assemblies:
+        hex_nuts.index:
+          title: Hex Nuts
+          template_path: overrides/hex_nuts_index.md
+          icon: material/download
+        heat_insert.index:
+          title: Heat Inserts
+          template_path: overrides/heat_insert_index.md
+          icon: material/download
         hex_nuts.core.corexy: 
           title: CoreXY
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/2f4214235ff3476304094ba7

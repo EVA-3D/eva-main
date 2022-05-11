@@ -5,6 +5,7 @@ eva:
   component: all
   mounting: hex_nuts
   name: hex_nuts.shrouds.all
+title: Shrouds
 
 ---
 

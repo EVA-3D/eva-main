@@ -5,6 +5,7 @@ eva:
   component: cartesian
   mounting: heat_insert
   name: heat_insert.core.cartesian
+title: Cartesian
 
 ---
 

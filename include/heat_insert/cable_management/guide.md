@@ -5,6 +5,7 @@ eva:
   component: guide
   mounting: heat_insert
   name: heat_insert.cable_management.guide
+title: Simple guide
 
 ---
 

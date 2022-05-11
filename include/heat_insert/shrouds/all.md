@@ -5,6 +5,7 @@ eva:
   component: all
   mounting: heat_insert
   name: heat_insert.shrouds.all
+title: Shrouds
 
 ---
 

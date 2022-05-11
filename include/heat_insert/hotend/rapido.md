@@ -5,6 +5,7 @@ eva:
   component: rapido
   mounting: heat_insert
   name: heat_insert.hotend.rapido
+title: Rapido
 
 ---
 

@@ -5,6 +5,7 @@ eva:
   component: lgx_lite
   mounting: hex_nuts
   name: hex_nuts.drive.lgx_lite
+title: LGX Lite
 
 ---
 

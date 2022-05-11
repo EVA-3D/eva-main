@@ -5,6 +5,7 @@ eva:
   component: mosquito
   mounting: hex_nuts
   name: hex_nuts.hotend.mosquito
+title: Mosquito
 
 ---
 

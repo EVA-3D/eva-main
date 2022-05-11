@@ -5,6 +5,7 @@ eva:
   component: mosquito
   mounting: heat_insert
   name: heat_insert.hotend.mosquito
+title: Mosquito
 
 ---
 

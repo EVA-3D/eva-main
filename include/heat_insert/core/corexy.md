@@ -5,6 +5,7 @@ eva:
   component: corexy
   mounting: heat_insert
   name: heat_insert.core.corexy
+title: CoreXY
 
 ---
 

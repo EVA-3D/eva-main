@@ -5,6 +5,7 @@ eva:
   component: nova
   mounting: hex_nuts
   name: hex_nuts.hotend.nova
+title: Nova
 
 ---
 
