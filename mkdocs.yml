@@ -50,9 +50,14 @@ plugins:
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/2c32d9a1ab602c5dce5bad08
         hex_nuts.hotend.mosquito: 
           title: Mosquito
+          description: &mosquito |
+            !!! warning "Cooling"
+                Due to how the Mosquito heat block shape is it's difficult for EVA to achieve proper cooling. You might want to look
+                at the [Tri Horn duct](../../bottoms/tri_horn/) to improve the cooling performance.
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/2b9b0c963501bc147e8e9d92
         heat_insert.hotend.mosquito: 
           title: Mosquito
+          description: *mosquito
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/e43ed049f5cbd645ff6e4fbb
         hex_nuts.hotend.nova: 
           title: Nova
@@ -66,6 +71,12 @@ plugins:
         heat_insert.hotend.bmo: 
           title: BMO
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/3be30a3d48a567e68cf0346a
+        hex_nuts.hotend.revo_voron: 
+          title: REVO Voron
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/2133249e56b52c378fd49aee
+        heat_insert.hotend.revo_voron: 
+          title: REVO Voron
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/f83669ed7b24c41ee9d3cff8
 
         hex_nuts.drive.lgx: 
           title: LGX
@@ -137,19 +148,74 @@ plugins:
           title: Simple guide
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/bec2e886d8d4db8d3c1efdd3
 
-        hex_nuts.extra_ducts.bottom: 
-          title: Cooling ducts
+        hex_nuts.bottoms.default: 
+          title: Default
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/b4692984999a08ec38f9b9d2
+        heat_insert.bottoms.default: 
+          title: Default
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/db8f9380f0daa02177a7de41
+        hex_nuts.bottoms.volcano: 
+          title: Volcano
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/c8cb348e59d254a62ffbde02
-        heat_insert.extra_ducts.bottom: 
-          title: Cooling ducts
+        heat_insert.bottoms.volcano: 
+          title: Volcano
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/4f0a80e4641c1fb364a8a3f6
+        hex_nuts.bottoms.tri_horn: 
+          title: Tri Horn
+          description: &tri_horn |
+            This one should be treated as a last resort duct, I made it in a rush as my CHT + Mosquito setup had cooling performance issues.
+            Before I figure out a duct that will work better for Mosquito this might help if you have cooling issues.
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/03eab64073f47dab87c739d5
+        heat_insert.bottoms.tri_horn: 
+          title: Tri Horn
+          description: *tri_horn
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/3e9f70832e38dd006a427ee7
 
-        hex_nuts.shrouds.all: 
-          title: Shrouds
-          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/6cd608f61ef46cb68c20cea4
-        heat_insert.shrouds.all: 
-          title: Shrouds
-          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/6cd608f61ef46cb68c20cea4
+        hex_nuts.shrouds.small: 
+          title: Small
+          description: &small |
+            Small is the same as [Chonky](../chonky) just with the top cut out.
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/6d34d6cbba1a58878db5ebd6
+        heat_insert.shrouds.small: 
+          title: Small
+          description: *small
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/6d34d6cbba1a58878db5ebd6
+        hex_nuts.shrouds.chonky: 
+          title: Chonky
+          description: &chonky |
+            Chonky is a tall and light shroud that was the first shroud I made for EVA 3.0. It offers some possibility
+            for a tidy build as you can hide some wires behind it (especially the ADXL ones). Comes with a version for those 
+            who tend to shove their allen keys in the spinning fan blades.
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/f51f80720fc79e08730975bf
+        heat_insert.shrouds.chonky: 
+          title: Chonky
+          description: *chonky
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/f51f80720fc79e08730975bf
+        hex_nuts.shrouds.chonkier: 
+          title: Chonkier
+          description: &chonkier |
+            Chonkier is the same as [Chonky](../chonky) but with extra features added. Personally, I don't like it, but it depends 
+            on one's taste when it comes to those os I'm leaving it, maybe you'll like it :).
+            I made variants with probe cut outs in case stuff like BL-Touch would not fit. 
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/dd5d7153225c772bde17a69c
+        heat_insert.shrouds.chonkier: 
+          title: Chonkier
+          description: *chonkier
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/dd5d7153225c772bde17a69c
+        hex_nuts.shrouds.tank: 
+          title: Tank
+          description: &tank | 
+            Tank shroud is a shroud I envisioned being "the V-Core 3 shroud" - big and tanky, hides a 8mm probe inside. 
+
+            Caveats:
+            
+            - it only supports 8mm probes
+            - it's thick in Y so a 4020 might not work with it in all applications
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/7d7c8e7015e5ae3debde11c4
+        heat_insert.shrouds.tank: 
+          title: Tank
+          description: *tank
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/7d7c8e7015e5ae3debde11c4
 
 theme:
   logo: assets/logo_white_outline.svg

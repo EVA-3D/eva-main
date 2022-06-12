@@ -1,29 +1,22 @@
 ---
 hide:
   - navigation
+  - toc
 ---
 
 # EVA
-
-!!! warning "Release Candidate"
-
-    EVA 3.0 is in a release candidate state, meaning it might be unstable - consider yourself an early adopter :)
-
-    It's tested a lot at this point but since there were so many changes done to it it's only fair to say that it's not released as a stable release (even if the act of stabilization will only mean fixing this documentation).
-
-    Please have patience with it and remember that you will likely need longer belts on your V-Core 3 for EVA 3.0 to work on it.
-
-!!! info "EVA 2.4.2"
-
-    If you are looking for the old version of EVA, it's here: https://2.eva-3d.page/
-
-![](assets/EVA_MAIN.png)
 
 > `EH-v uh` *(/ˈɛ.va/)* - like in p<b>E</b>t, <b>V</b>ery, <b>U</b>p 
 
 EVA is a 3D printing carriage **platform** revolving around accessibility - the goal is to give the power of choice to the users by enabling as many options for carriage hardware as possible. The "platform" part means a few things, for one EVA is a specification - a 3D printer can be EVA compatible (not the other way around - EVA is not to be compatible with a printer) thus automatically acquiring all the hardware compatibility EVA brings and will bring in it's future versions. New versions appear with compatibility for new hardware. Aside from being a spec, EVA also comes with a set of parts ready to use on compatible printers.
 
+![](assets/EVA_MAIN.png)
+
 EVA is developed by me - [Paweł Kucmus](https://github.com/pkucmus) and the fantastic EVA and Rat Rig community.
+
+!!! info "EVA 2.4.2"
+
+    If you are looking for the old version of EVA, it's here: https://2.eva-3d.page/
 
 ## Getting started
 

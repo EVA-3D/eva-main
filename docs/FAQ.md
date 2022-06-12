@@ -37,6 +37,10 @@ Here: [printables.com](https://www.printables.com/model/200939-eva-3-modular-3d-
 
 As long as it's not purple it's fine. As everyone knows black color is the strongest but green is the fastest EVA is black/green so we have the benefits of both ;)
 
+## What is the print orientation and why are the STLs not in the right one?
+
+It's too much work for me to maintain to rotate it all, either it's going to be a post-process thing I can figure out or we are stuck with how it is. You can find a preview of the orientation in the [getting started](/getting_started#printing) page.
+
 ## Wouldn't it be better to attach the hotend directly to the extruder?
 
 It depends, better for what? One of the design goals was to have the motor on top of the MGN carriage, as it weights the most. From there we go down to the nozzle tip, having different sized hotends to support there has to be an interface "layer" between the two. Once you'll use it you will likely forget that this ever bothered you - that's how it was for many users since EVA 1.0.

@@ -80,58 +80,76 @@ class EVAPlugin(BasePlugin):
 
         return files
 
-    async def gen_pages(self, dest_dir, assemblies):
+    async def make_template_cache(self, assemblies):
         template_cache = {}
         for name, data in assemblies.items():
-            path_parts = name.split(".")
-            title = data.get("title", path_parts[-1])
-
-            path = Path(dest_dir, *path_parts[:-1], f"{path_parts[-1]}.md")
-            meta = {
-                "title": title,
-                "eva": {
-                    "name": name,
-                },
-            }
-            try:
-                meta["eva"]["mounting"] = path_parts[0]
-            except IndexError:
-                pass
-    
-            try:
-                meta["eva"]["category"] = path_parts[1]
-            except IndexError:
-                pass
-    
-            try:
-                meta["eva"]["component"] = path_parts[2]
-            except IndexError:
-                pass
-
-            if icon := data.get("icon"):
-                meta["icon"] = icon
-    
             template_path = self.project_dir / data.get(
                 "template_path", "overrides/component_template.md"
             )
             if not template_path in template_cache:
                 async with aiofiles.open(template_path, "r") as template_file:
                     template = self.env.from_string(await template_file.read())
+                    template_cache[template_path] = template
             else:
                 template = template_cache[template_path]
 
-            path.parent.mkdir(parents=True, exist_ok=True)
+        return template_cache
 
-            async with aiofiles.open(path, "w") as dest_file:
-                await dest_file.write(
-                    template.render(
-                        {
-                            "title": title,
-                            "meta": meta,
-                            "description": data.get("description", "") or "",
-                        }
-                    )
+    async def gen_page(self, template_cache, dest_dir, name, data):
+        path_parts = name.split(".")
+        title = data.get("title", path_parts[-1])
+
+        path = Path(dest_dir, *path_parts[:-1], f"{path_parts[-1]}.md")
+        meta = {
+            "title": title,
+            "eva": {
+                "name": name,
+            },
+        }
+        try:
+            meta["eva"]["mounting"] = path_parts[0]
+        except IndexError:
+            pass
+
+        try:
+            meta["eva"]["category"] = path_parts[1]
+        except IndexError:
+            pass
+
+        try:
+            meta["eva"]["component"] = path_parts[2]
+        except IndexError:
+            pass
+
+        if icon := data.get("icon"):
+            meta["icon"] = icon
+
+        template_path = self.project_dir / data.get(
+            "template_path", "overrides/component_template.md"
+        )
+        if not template_path in template_cache:
+            async with aiofiles.open(template_path, "r") as template_file:
+                template = self.env.from_string(await template_file.read())
+        else:
+            template = template_cache[template_path]
+
+        path.parent.mkdir(parents=True, exist_ok=True)
+
+        async with aiofiles.open(path, "w") as dest_file:
+            await dest_file.write(
+                template.render(
+                    {
+                        "title": title,
+                        "meta": meta,
+                        "description": data.get("description", "") or "",
+                    }
                 )
+            )
+
+    async def gen_pages(self, dest_dir, assemblies):
+        template_cache = await self.make_template_cache(assemblies)
+        coros = [self.gen_page(template_cache, dest_dir, name, data) for name, data in assemblies.items()]
+        await asyncio.gather(*coros)
 
     def on_pre_build(self, config):
         dest_dir = self.include_dir

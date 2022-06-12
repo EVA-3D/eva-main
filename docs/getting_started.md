@@ -14,7 +14,19 @@ EVA might look intimidating at first but it's really not, sure the BOMs are comp
 
 ## Printing
 
-TODO: make the render showing the print orientation
+<div 
+    class="cloudimage-360"
+    data-folder="/assets/360/"
+    data-filename="{index}.png"
+    data-amount="36"
+    data-speed="500"
+    data-control-reverse="true"
+    data-full-screen="true"
+    data-magnifier="true"
+    data-bottom-circle="true"
+    data-hide-360-logo="true"
+    data-index-zero-base="4"
+></div>
 
 As for print settings I made them work for up to a 0.5 nozzle, although you might need to enable thin walls detection in your slicer then printing with a 0.5 nozzle. Aside from that you want ~1mm of perimeters (i.e. 2 perimeters with a 0.55mm perimeter width, or 3 perimeters with a 0.45mm perimeter width). As for infill 15% is enough.
 
