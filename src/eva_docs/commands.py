@@ -12,7 +12,7 @@ from onshape.client import Onshape
 from onshape.schemas import BOMTable
 
 
-ONSHAPE_SEMAPHORE = asyncio.Semaphore(10)
+ONSHAPE_SEMAPHORE = asyncio.Semaphore(16)
 
 
 
@@ -36,6 +36,7 @@ async def run_semaphored(f, *args, **kwargs):
 async def download_boms(onshape_credentials, cad_links: Dict[str, str]):
     progress = get_progress_bar("Generating Bills Of Materials")
     bom_tables = {}
+
     async with Onshape(**onshape_credentials) as onshape:
         with progress:
             tasks = {}

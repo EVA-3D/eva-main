@@ -17,7 +17,7 @@ plugins:
       minify_html: true
   - awesome-pages
   - eva-docs-plugin:
-      version: 3.0.0
+      version: 3.0.1
       stls_dir: stls
       onshape_assets_dir: onshape_assets
       assemblies:
@@ -150,9 +150,12 @@ plugins:
 
         hex_nuts.bottoms.default: 
           title: Default
+          description: &bottoms_default |
+            This is the exact same duct as the one bundled in the [Core/CoreXY](../../core/corexy) and [Core/Cartesian](../../core/cartesian) assemblies
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/b4692984999a08ec38f9b9d2
         heat_insert.bottoms.default: 
           title: Default
+          description: *bottoms_default
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/db8f9380f0daa02177a7de41
         hex_nuts.bottoms.volcano: 
           title: Volcano
