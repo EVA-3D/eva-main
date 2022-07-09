@@ -104,9 +104,17 @@ plugins:
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/ef6d0507ceed61c6a4424966
         hex_nuts.drive.bmg: 
           title: BMG
+          description: &drive_bmg |
+            !!! info "Cable holder"
+
+                The default cable holder mount will not work with BMG, export the "fat" version from 
+                [here](https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/863bec3ba9197c227d6573ef).
+
+            This mount is compatible with both BMG and BMG-M, you will need a longer PTFE tube for the former one.
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/849b78a078391fe8d642e8a8
         heat_insert.drive.bmg: 
           title: BMG
+          description: *drive_bmg
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/849b78a078391fe8d642e8a8
 
         hex_nuts.cooling_inlet.40mm: 
@@ -140,6 +148,12 @@ plugins:
         heat_insert.probes.bl_touch: 
           title: BL-touch
           link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/dbf188e21e46a24ca801cc78
+        hex_nuts.probes.bl_touch_volcano: 
+          title: BL-touch Volcano
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/ef5aded96603c9fee7224d15
+        heat_insert.probes.bl_touch_volcano: 
+          title: BL-touch Volcano
+          link: https://cad.onshape.com/documents/cb8bd513b980b411d50cd513/w/6e64f1ba8609c44902ccf372/e/ef5aded96603c9fee7224d15
 
         hex_nuts.cable_management.guide: 
           title: Simple guide
