@@ -62,7 +62,7 @@ Let's define the 4 main components as the Core, this would be:
 
 - `Top` - interface between the MGN12 and the rest of EVA
 - `Front` - universal interface for hotend mounts
-- `Bottom` - support piece integrated with an cooling duct option
+- `Bottom` - support piece integrated with a cooling duct option
 - `Back` - different backs are use for different motion systems
 
 ![](assets/GS_core.png)
@@ -95,7 +95,7 @@ Goes on the `front` allows to mount the bed probe of your choosing.
 
 ![](assets/GS_probe.png)
 
-### PTFE Lenghts
+### PTFE Lengths
 
 You will need **one** piece of a PTFE tube going from the drive to the hotend. The length of that tube is different for each drive and hotend combo. To learn how much PTFE you need you can take a look at the BOM tables of you chosen drive and hotend and sum the two values (**do not cut into two pieces**).
 
